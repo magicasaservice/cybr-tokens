@@ -1,0 +1,66 @@
+{
+  "app": {
+    "dimension": {
+      "component": {
+        "radius": {
+          "round": {
+            "$value": "9999px",
+            "$type": "dimension"
+          },
+          "compact": {
+            "xs": {
+              "$value": "{config.dimension.radius.base} * 2.625",
+              "$type": "dimension"
+            },
+            "sm": {
+              "$value": "{config.dimension.radius.base} * 3.125",
+              "$type": "dimension"
+            },
+            "md": {
+              "$value": "{config.dimension.radius.base} * 3.625",
+              "$type": "dimension"
+            },
+            "lg": {
+              "$value": "{config.dimension.radius.base} * 4.125",
+              "$type": "dimension"
+            },
+            "xl": {
+              "$value": "{config.dimension.radius.base} * 4.625",
+              "$type": "dimension"
+            }
+          },
+          "default": {
+            "2xs": {
+              "$value": "{config.dimension.radius.base} * 5.125",
+              "$type": "dimension"
+            },
+            "xs": {
+              "$value": "{config.dimension.radius.base} * 5.625",
+              "$type": "dimension"
+            },
+            "sm": {
+              "$value": "{config.dimension.radius.base} * 6.125",
+              "$type": "dimension"
+            },
+            "md": {
+              "$value": "{config.dimension.radius.base} * 6.625",
+              "$type": "dimension"
+            },
+            "lg": {
+              "$value": "{config.dimension.radius.base} * 7.125",
+              "$type": "dimension"
+            },
+            "xl": {
+              "$value": "{config.dimension.radius.base} * 7.625",
+              "$type": "dimension"
+            },
+            "2xl": {
+              "$value": "{config.dimension.radius.base} * 8.125",
+              "$type": "dimension"
+            }
+          }
+        }
+      }
+    }
+  }
+}
