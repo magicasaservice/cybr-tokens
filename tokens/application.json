@@ -1429,7 +1429,7 @@
     },
     "lineHeight": {
       "default": {
-        "$value": "140%",
+        "$value": "147.5%",
         "$type": "lineHeights"
       },
       "none": {
