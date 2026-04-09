@@ -567,6 +567,22 @@
               }
             }
           },
+          "border": {
+            "translucent": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.neutral.translucent.4}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.neutral.translucent.5}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.neutral.translucent.6}"
+              }
+            }
+          },
           "fg": {
             "solid": {
               "default": {
@@ -808,6 +824,48 @@
                       "space": "oklch"
                     }
                   }
+                }
+              }
+            }
+          }
+        },
+        "focus": {
+          "border": {
+            "default": {
+              "$type": "color",
+              "$value": "{config.color.palette.blue.solid.7}"
+            }
+          },
+          "outline": {
+            "default": {
+              "$type": "color",
+              "$value": "{config.color.palette.blue.translucent.4}"
+            }
+          }
+        },
+        "shadow": {
+          "default": {
+            "$value": "{config.color.palette.black.solid}",
+            "$type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.24",
+                  "space": "oklch"
+                }
+              }
+            }
+          },
+          "strong": {
+            "$value": "{config.color.palette.black.solid}",
+            "$type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.24",
+                  "space": "oklch"
                 }
               }
             }
