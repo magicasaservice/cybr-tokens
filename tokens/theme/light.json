@@ -318,22 +318,6 @@
               }
             }
           },
-          "border": {
-            "translucent": {
-              "default": {
-                "$type": "color",
-                "$value": "{config.color.palette.blue.translucent.4}"
-              },
-              "hover": {
-                "$type": "color",
-                "$value": "{config.color.palette.blue.translucent.5}"
-              },
-              "active": {
-                "$type": "color",
-                "$value": "{config.color.palette.blue.translucent.6}"
-              }
-            }
-          },
           "fg": {
             "solid": {
               "default": {
@@ -415,22 +399,6 @@
               "active": {
                 "$type": "color",
                 "$value": "{config.color.palette.red.solid.12}"
-              }
-            }
-          },
-          "border": {
-            "translucent": {
-              "default": {
-                "$type": "color",
-                "$value": "{config.color.palette.red.translucent.4}"
-              },
-              "hover": {
-                "$type": "color",
-                "$value": "{config.color.palette.red.translucent.5}"
-              },
-              "active": {
-                "$type": "color",
-                "$value": "{config.color.palette.red.translucent.6}"
               }
             }
           },
@@ -518,22 +486,6 @@
               }
             }
           },
-          "border": {
-            "translucent": {
-              "default": {
-                "$type": "color",
-                "$value": "{config.color.palette.green.translucent.4}"
-              },
-              "hover": {
-                "$type": "color",
-                "$value": "{config.color.palette.green.translucent.5}"
-              },
-              "active": {
-                "$type": "color",
-                "$value": "{config.color.palette.green.translucent.6}"
-              }
-            }
-          },
           "fg": {
             "solid": {
               "default": {
@@ -615,22 +567,6 @@
               "active": {
                 "$type": "color",
                 "$value": "{config.color.palette.yellow.solid.12}"
-              }
-            }
-          },
-          "border": {
-            "translucent": {
-              "default": {
-                "$type": "color",
-                "$value": "{config.color.palette.yellow.translucent.4}"
-              },
-              "hover": {
-                "$type": "color",
-                "$value": "{config.color.palette.yellow.translucent.5}"
-              },
-              "active": {
-                "$type": "color",
-                "$value": "{config.color.palette.yellow.translucent.6}"
               }
             }
           },
@@ -736,22 +672,6 @@
                 "$type": "color",
                 "$value": "{config.color.palette.white.solid}",
                 "description": "This should always map to a neutral light color, even if the theme is dark."
-              }
-            }
-          },
-          "border": {
-            "translucent": {
-              "default": {
-                "$type": "color",
-                "$value": "{config.color.palette.neutral.translucent.4}"
-              },
-              "hover": {
-                "$type": "color",
-                "$value": "{config.color.palette.neutral.translucent.5}"
-              },
-              "active": {
-                "$type": "color",
-                "$value": "{config.color.palette.neutral.translucent.6}"
               }
             }
           },
@@ -877,23 +797,6 @@
                     "modify": {
                       "type": "alpha",
                       "value": "0.24",
-                      "space": "oklch"
-                    }
-                  }
-                }
-              }
-            }
-          },
-          "border": {
-            "translucent": {
-              "default": {
-                "$type": "color",
-                "$value": "{app.color.component.neutral.border.translucent.default}",
-                "$extensions": {
-                  "studio.tokens": {
-                    "modify": {
-                      "type": "alpha",
-                      "value": "0.08",
                       "space": "oklch"
                     }
                   }

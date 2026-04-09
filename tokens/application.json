@@ -357,6 +357,22 @@
               }
             }
           },
+          "border": {
+            "translucent": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.blue.translucent.4}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.blue.translucent.5}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.blue.translucent.6}"
+              }
+            }
+          },
           "fg": {
             "muted": {
               "default": {
@@ -436,6 +452,22 @@
               }
             }
           },
+          "border": {
+            "translucent": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.red.translucent.4}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.red.translucent.5}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.red.translucent.6}"
+              }
+            }
+          },
           "fg": {
             "muted": {
               "default": {
@@ -512,6 +544,22 @@
                 "$type": "color",
                 "$value": "{config.color.palette.white.solid}",
                 "description": "This should always map to a neutral light color, even if the theme is dark."
+              }
+            }
+          },
+          "border": {
+            "translucent": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.translucent.4}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.translucent.5}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.translucent.6}"
               }
             }
           },
@@ -605,6 +653,22 @@
                 "$type": "color",
                 "$value": "{config.color.palette.white.solid}",
                 "description": "This should always map to a neutral light color, even if the theme is dark."
+              }
+            }
+          },
+          "border": {
+            "translucent": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.yellow.translucent.4}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.yellow.translucent.5}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.yellow.translucent.6}"
               }
             }
           },
@@ -855,7 +919,7 @@
                   "studio.tokens": {
                     "modify": {
                       "type": "alpha",
-                      "value": "0.2",
+                      "value": "0.08",
                       "space": "oklch"
                     }
                   }
@@ -1683,104 +1747,32 @@
     "dimension": {
       "component": {
         "spacing": {
-          "0_25": {
-            "$value": "{config.dimension.spacing.base} * 0.25",
-            "$type": "dimension"
-          },
-          "0_5": {
-            "$value": "{config.dimension.spacing.base} * 0.5",
-            "$type": "dimension"
-          },
-          "0_75": {
-            "$value": "{config.dimension.spacing.base} * 0.75",
-            "$type": "dimension"
-          },
           "1": {
             "$value": "{config.dimension.spacing.base}",
-            "$type": "dimension"
-          },
-          "1_25": {
-            "$value": "{config.dimension.spacing.base} * 1.25",
-            "$type": "dimension"
-          },
-          "1_5": {
-            "$value": "{config.dimension.spacing.base} * 1.5",
-            "$type": "dimension"
-          },
-          "1_75": {
-            "$value": "{config.dimension.spacing.base} * 1.75",
             "$type": "dimension"
           },
           "2": {
             "$value": "{config.dimension.spacing.base} * 2",
             "$type": "dimension"
           },
-          "2_25": {
-            "$value": "{config.dimension.spacing.base} * 2.25",
-            "$type": "dimension"
-          },
-          "2_5": {
-            "$value": "{config.dimension.spacing.base} * 2.5",
-            "$type": "dimension"
-          },
           "3": {
             "$value": "{config.dimension.spacing.base} * 3",
-            "$type": "dimension"
-          },
-          "3_5": {
-            "$value": "{config.dimension.spacing.base} * 3.5",
-            "$type": "dimension"
-          },
-          "3_75": {
-            "$value": "{config.dimension.spacing.base} * 3.75",
             "$type": "dimension"
           },
           "4": {
             "$value": "{config.dimension.spacing.base} * 4",
             "$type": "dimension"
           },
-          "4_25": {
-            "$value": "{config.dimension.spacing.base} * 4.25",
-            "$type": "dimension"
-          },
-          "4_5": {
-            "$value": "{config.dimension.spacing.base} * 4.5",
-            "$type": "dimension"
-          },
           "5": {
             "$value": "{config.dimension.spacing.base} * 5",
-            "$type": "dimension"
-          },
-          "5_25": {
-            "$value": "{config.dimension.spacing.base} * 5.25",
-            "$type": "dimension"
-          },
-          "5_5": {
-            "$value": "{config.dimension.spacing.base} * 5.5",
-            "$type": "dimension"
-          },
-          "5_75": {
-            "$value": "{config.dimension.spacing.base} * 5.75",
             "$type": "dimension"
           },
           "6": {
             "$value": "{config.dimension.spacing.base} * 6",
             "$type": "dimension"
           },
-          "6_5": {
-            "$value": "{config.dimension.spacing.base} * 6.5",
-            "$type": "dimension"
-          },
-          "6_75": {
-            "$value": "{config.dimension.spacing.base} * 6.75",
-            "$type": "dimension"
-          },
           "7": {
             "$value": "{config.dimension.spacing.base} * 7",
-            "$type": "dimension"
-          },
-          "7_5": {
-            "$value": "{config.dimension.spacing.base} * 7.5",
             "$type": "dimension"
           },
           "8": {
@@ -1837,6 +1829,78 @@
           },
           "60": {
             "$value": "{config.dimension.spacing.base} * 60",
+            "$type": "dimension"
+          },
+          "0_25": {
+            "$value": "{config.dimension.spacing.base} * 0.25",
+            "$type": "dimension"
+          },
+          "0_5": {
+            "$value": "{config.dimension.spacing.base} * 0.5",
+            "$type": "dimension"
+          },
+          "0_75": {
+            "$value": "{config.dimension.spacing.base} * 0.75",
+            "$type": "dimension"
+          },
+          "1_25": {
+            "$value": "{config.dimension.spacing.base} * 1.25",
+            "$type": "dimension"
+          },
+          "1_5": {
+            "$value": "{config.dimension.spacing.base} * 1.5",
+            "$type": "dimension"
+          },
+          "1_75": {
+            "$value": "{config.dimension.spacing.base} * 1.75",
+            "$type": "dimension"
+          },
+          "2_25": {
+            "$value": "{config.dimension.spacing.base} * 2.25",
+            "$type": "dimension"
+          },
+          "2_5": {
+            "$value": "{config.dimension.spacing.base} * 2.5",
+            "$type": "dimension"
+          },
+          "3_5": {
+            "$value": "{config.dimension.spacing.base} * 3.5",
+            "$type": "dimension"
+          },
+          "3_75": {
+            "$value": "{config.dimension.spacing.base} * 3.75",
+            "$type": "dimension"
+          },
+          "4_25": {
+            "$value": "{config.dimension.spacing.base} * 4.25",
+            "$type": "dimension"
+          },
+          "4_5": {
+            "$value": "{config.dimension.spacing.base} * 4.5",
+            "$type": "dimension"
+          },
+          "5_25": {
+            "$value": "{config.dimension.spacing.base} * 5.25",
+            "$type": "dimension"
+          },
+          "5_5": {
+            "$value": "{config.dimension.spacing.base} * 5.5",
+            "$type": "dimension"
+          },
+          "5_75": {
+            "$value": "{config.dimension.spacing.base} * 5.75",
+            "$type": "dimension"
+          },
+          "6_5": {
+            "$value": "{config.dimension.spacing.base} * 6.5",
+            "$type": "dimension"
+          },
+          "6_75": {
+            "$value": "{config.dimension.spacing.base} * 6.75",
+            "$type": "dimension"
+          },
+          "7_5": {
+            "$value": "{config.dimension.spacing.base} * 7.5",
             "$type": "dimension"
           }
         },
