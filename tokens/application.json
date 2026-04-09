@@ -59,6 +59,34 @@
               "$type": "color"
             }
           }
+        },
+        "shadow": {
+          "default": {
+            "$value": "{config.color.palette.black.solid}",
+            "$type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.24",
+                  "space": "oklch"
+                }
+              }
+            }
+          },
+          "strong": {
+            "$value": "{config.color.palette.black.solid}",
+            "$type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.24",
+                  "space": "oklch"
+                }
+              }
+            }
+          }
         }
       },
       "component": {
