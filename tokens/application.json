@@ -111,6 +111,13 @@
                 "$type": "color",
                 "$value": "{config.color.palette.grey.solid.11}"
               }
+            },
+            "light": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.white.solid}",
+                "description": "This should always map to a neutral light color, even if the theme is dark."
+              }
             }
           },
           "border": {
@@ -272,6 +279,20 @@
         },
         "accent": {
           "bg": {
+            "solid": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.blue.solid.7}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.blue.solid.8}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.blue.solid.9}"
+              }
+            },
             "translucent": {
               "default": {
                 "$type": "color",
@@ -298,6 +319,13 @@
               "active": {
                 "$type": "color",
                 "$value": "{config.color.palette.blue.solid.6}"
+              }
+            },
+            "light": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.white.solid}",
+                "description": "This should always map to a neutral light color, even if the theme is dark."
               }
             }
           },
@@ -330,6 +358,20 @@
         },
         "danger": {
           "bg": {
+            "solid": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.red.solid.7}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.red.solid.8}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.red.solid.9}"
+              }
+            },
             "translucent": {
               "default": {
                 "$type": "color",
@@ -356,6 +398,13 @@
               "active": {
                 "$type": "color",
                 "$value": "{config.color.palette.red.solid.6}"
+              }
+            },
+            "light": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.white.solid}",
+                "description": "This should always map to a neutral light color, even if the theme is dark."
               }
             }
           },
@@ -388,6 +437,20 @@
         },
         "success": {
           "bg": {
+            "solid": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.solid.7}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.solid.8}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.solid.9}"
+              }
+            },
             "translucent": {
               "default": {
                 "$type": "color",
@@ -414,6 +477,13 @@
               "active": {
                 "$type": "color",
                 "$value": "{config.color.palette.green.solid.6}"
+              }
+            },
+            "light": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.white.solid}",
+                "description": "This should always map to a neutral light color, even if the theme is dark."
               }
             }
           },
@@ -460,6 +530,20 @@
         },
         "warning": {
           "bg": {
+            "solid": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.yellow.solid.7}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.yellow.solid.8}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.yellow.solid.9}"
+              }
+            },
             "translucent": {
               "default": {
                 "$type": "color",
@@ -486,6 +570,13 @@
               "active": {
                 "$type": "color",
                 "$value": "{config.color.palette.yellow.solid.6}"
+              }
+            },
+            "light": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.white.solid}",
+                "description": "This should always map to a neutral light color, even if the theme is dark."
               }
             }
           },
@@ -564,6 +655,27 @@
               "default": {
                 "$type": "color",
                 "$value": "{config.color.palette.neutral.solid.9}"
+              }
+            },
+            "tone": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.neutral.solid.7}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.neutral.solid.8}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.neutral.solid.9}"
+              }
+            },
+            "light": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.white.solid}",
+                "description": "This should always map to a neutral light color, even if the theme is dark."
               }
             }
           },
