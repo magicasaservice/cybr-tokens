@@ -1264,11 +1264,11 @@
     "fontFamily": {
       "component": {
         "text": {
-          "$value": "Halo Sans",
+          "$value": "CYBR Sans",
           "$type": "fontFamilies"
         },
         "symbol": {
-          "$value": "Symbols",
+          "$value": "CYBR Glyphs",
           "$type": "fontFamilies"
         },
         "number": {
@@ -1278,31 +1278,31 @@
       },
       "surface": {
         "display": {
-          "$value": "Halo Sans",
+          "$value": "CYBR Sans",
           "$type": "fontFamilies"
         },
         "title": {
-          "$value": "Halo Sans",
+          "$value": "CYBR Sans",
           "$type": "fontFamilies"
         },
         "callout": {
-          "$value": "Halo Sans",
+          "$value": "CYBR Sans",
           "$type": "fontFamilies"
         },
         "subtitle": {
-          "$value": "Halo Sans",
+          "$value": "CYBR Sans",
           "$type": "fontFamilies"
         },
         "body": {
-          "$value": "Halo Sans",
+          "$value": "CYBR Sans",
           "$type": "fontFamilies"
         },
         "caption": {
-          "$value": "Halo Sans",
+          "$value": "CYBR Sans",
           "$type": "fontFamilies"
         },
         "footnote": {
-          "$value": "Halo Sans",
+          "$value": "CYBR Sans",
           "$type": "fontFamilies"
         },
         "code": {
