@@ -40,7 +40,7 @@
             "$type": "color"
           },
           "inverted": {
-            "$value": "{config.color.palette.green.solid}",
+            "$value": "{config.color.palette.white.solid}",
             "$type": "color"
           }
         }
@@ -116,7 +116,7 @@
             "light": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.green.solid}",
+                "$value": "{config.color.palette.white.solid}",
                 "description": "This should always map to a primary light color, even if the theme is dark."
               }
             }
@@ -237,7 +237,7 @@
             "light": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.green.solid}",
+                "$value": "{config.color.palette.white.solid}",
                 "description": "This should always map to a primary light color, even if the theme is dark."
               }
             }
