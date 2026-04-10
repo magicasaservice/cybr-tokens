@@ -1,6 +1,50 @@
 {
   "app": {
     "color": {
+      "surface": {
+        "bg": {
+          "low": {
+            "$type": "color",
+            "$value": "{config.color.palette.black.solid}"
+          },
+          "base": {
+            "$type": "color",
+            "$value": "{config.color.palette.green.solid.12}"
+          },
+          "high": {
+            "$type": "color",
+            "$value": "{config.color.palette.green.solid.11}"
+          },
+          "higher": {
+            "$type": "color",
+            "$value": "{config.color.palette.green.solid.10}"
+          }
+        },
+        "border": {
+          "default": {
+            "$type": "color",
+            "$value": "{config.color.palette.green.translucent.3}"
+          }
+        },
+        "fg": {
+          "default": {
+            "$value": "{config.color.palette.green.solid.1}",
+            "$type": "color"
+          },
+          "muted": {
+            "$value": "{config.color.palette.green.translucent.7}",
+            "$type": "color"
+          },
+          "subtle": {
+            "$value": "{config.color.palette.green.translucent.3}",
+            "$type": "color"
+          },
+          "inverted": {
+            "$value": "{config.color.palette.green.solid}",
+            "$type": "color"
+          }
+        }
+      },
       "material": {
         "base": {
           "bg": {
@@ -72,7 +116,7 @@
             "light": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.white.solid}",
+                "$value": "{config.color.palette.green.solid}",
                 "description": "This should always map to a primary light color, even if the theme is dark."
               }
             }
@@ -110,13 +154,13 @@
             },
             "muted": {
               "default": {
-                "$value": "{config.color.palette.white.translucent.7}",
+                "$value": "{config.color.palette.green.translucent.7}",
                 "$type": "color"
               }
             },
             "subtle": {
               "default": {
-                "$value": "{config.color.palette.white.translucent.3}",
+                "$value": "{config.color.palette.green.translucent.3}",
                 "$type": "color"
               }
             },
@@ -193,7 +237,7 @@
             "light": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.white.solid}",
+                "$value": "{config.color.palette.green.solid}",
                 "description": "This should always map to a primary light color, even if the theme is dark."
               }
             }
