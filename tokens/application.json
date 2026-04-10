@@ -1351,6 +1351,10 @@
           "alt": {
             "$value": "{config.fontWeight.book}",
             "$type": "fontWeights"
+          },
+          "strong": {
+            "$value": "{config.fontWeight.bold}",
+            "$type": "fontWeights"
           }
         },
         "number": {
