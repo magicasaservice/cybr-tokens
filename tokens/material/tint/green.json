@@ -1,0 +1,16 @@
+{
+  "app": {
+    "color": {
+      "material": {
+        "base": {
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "{config.color.green.solid.12}"
+            }
+          }
+        }
+      }
+    }
+  }
+}
