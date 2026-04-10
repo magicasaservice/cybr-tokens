@@ -6,7 +6,7 @@
           "bg": {
             "default": {
               "$type": "color",
-              "$value": "{config.color.green.solid.12}"
+              "$value": "{config.color.palette.green.solid.12}"
             }
           }
         }
