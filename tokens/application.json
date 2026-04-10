@@ -99,7 +99,14 @@
           "bg": {
             "default": {
               "$type": "color",
-              "$value": "oklch(0.1684 0 0 / 84%)"
+              "$value": "{config.color.palette.grey.solid.12}",
+              "$extensions": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.84",
+                  "space": "oklch"
+                }
+              }
             },
             "gradient": {
               "$type": "gradient",
@@ -113,7 +120,7 @@
                   "position": 0
                 },
                 {
-                  "color": "oklch(1 0 0 / 3%)",
+                  "color": "oklch(1 0 0 / 0%)",
                   "position": 1
                 }
               ]

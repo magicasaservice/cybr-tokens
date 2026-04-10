@@ -61,6 +61,40 @@
           }
         }
       },
+      "material": {
+        "base": {
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "{config.color.palette.grey.solid.3}",
+              "$extensions": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.72",
+                  "space": "oklch"
+                }
+              }
+            }
+          },
+          "gradient": {
+            "$type": "gradient",
+            "$extensions": {
+              "angle": "180deg",
+              "type": "linear"
+            },
+            "$value": [
+              {
+                "color": "oklch(1 0 0 / 40%)",
+                "position": 0
+              },
+              {
+                "color": "oklch(1 0 0 / 0%)",
+                "position": 1
+              }
+            ]
+          }
+        }
+      },
       "component": {
         "primary": {
           "bg": {

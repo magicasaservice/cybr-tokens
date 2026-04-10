@@ -6,7 +6,14 @@
           "bg": {
             "default": {
               "$type": "color",
-              "$value": "{config.color.palette.green.solid.12}"
+              "$value": "{config.color.palette.green.solid.12}",
+              "$extensions": {
+                "modify": {
+                  "type": "alpha",
+                  "value": "0.84",
+                  "space": "oklch"
+                }
+              }
             }
           }
         }
