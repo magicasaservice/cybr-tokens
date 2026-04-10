@@ -103,6 +103,10 @@
             },
             "gradient": {
               "$type": "gradient",
+              "$extensions": {
+                "angle": "180deg",
+                "type": "linear"
+              },
               "$value": [
                 {
                   "color": "oklch(1 0 0 / 6%)",
@@ -119,7 +123,8 @@
             "gradient": {
               "$type": "gradient",
               "$extensions": {
-                "direction": "165deg"
+                "angle": "165deg",
+                "type": "linear"
               },
               "$value": [
                 {
