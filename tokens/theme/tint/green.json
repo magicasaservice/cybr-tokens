@@ -5,19 +5,19 @@
         "bg": {
           "low": {
             "$type": "color",
-            "$value": "{config.color.palette.black.solid}"
+            "$value": "{config.color.palette.green.solid.12}"
           },
           "base": {
             "$type": "color",
-            "$value": "{config.color.palette.green.solid.12}"
+            "$value": "{config.color.palette.green.solid.11}"
           },
           "high": {
             "$type": "color",
-            "$value": "{config.color.palette.green.solid.11}"
+            "$value": "{config.color.palette.green.solid.10}"
           },
           "higher": {
             "$type": "color",
-            "$value": "{config.color.palette.green.solid.10}"
+            "$value": "{config.color.palette.green.solid.9}"
           }
         },
         "border": {
