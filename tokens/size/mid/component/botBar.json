@@ -1,0 +1,12 @@
+{
+  "component": {
+    "cybrBar": {
+      "dimension": {
+        "radius": {
+          "$value": "0.625rem",
+          "$type": "dimension"
+        }
+      }
+    }
+  }
+}
