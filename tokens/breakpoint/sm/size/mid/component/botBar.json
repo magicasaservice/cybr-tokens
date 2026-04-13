@@ -1,6 +1,6 @@
 {
   "component": {
-    "cybrBar": {
+    "botBar": {
       "dimension": {
         "radius": {
           "$value": "0.6875rem",
