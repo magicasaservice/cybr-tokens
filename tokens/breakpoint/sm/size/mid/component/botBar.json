@@ -3,10 +3,8 @@
     "cybrBar": {
       "dimension": {
         "radius": {
-          "lg": {
-            "$value": "0.6875rem",
-            "$type": "dimension"
-          }
+          "$value": "0.6875rem",
+          "$type": "dimension"
         }
       }
     }
