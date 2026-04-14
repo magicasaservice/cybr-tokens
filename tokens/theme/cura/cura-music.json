@@ -4,35 +4,35 @@
       "surface": {
         "display": {
           "$value": "VCR OSD Mono",
-          "$type": "fontFamilies"
+          "$type": "fontFamily"
         },
         "title": {
           "$value": "VCR OSD Mono",
-          "$type": "fontFamilies"
+          "$type": "fontFamily"
         },
         "callout": {
           "$value": "VCR OSD Mono",
-          "$type": "fontFamilies"
+          "$type": "fontFamily"
         },
         "subtitle": {
           "$value": "VCR OSD Mono",
-          "$type": "fontFamilies"
+          "$type": "fontFamily"
         },
         "body": {
           "$value": "Georgia",
-          "$type": "fontFamilies"
+          "$type": "fontFamily"
         },
         "caption": {
           "$value": "Georgia",
-          "$type": "fontFamilies"
+          "$type": "fontFamily"
         },
         "footnote": {
           "$value": "Georgia",
-          "$type": "fontFamilies"
+          "$type": "fontFamily"
         },
         "code": {
           "$value": "Index",
-          "$type": "fontFamilies"
+          "$type": "fontFamily"
         }
       }
     },

@@ -4,35 +4,35 @@
       "surface": {
         "display": {
           "$value": "ITC Garamond",
-          "$type": "fontFamilies"
+          "$type": "fontFamily"
         },
         "title": {
           "$value": "ITC Garamond",
-          "$type": "fontFamilies"
+          "$type": "fontFamily"
         },
         "callout": {
           "$value": "ITC Garamond",
-          "$type": "fontFamilies"
+          "$type": "fontFamily"
         },
         "subtitle": {
           "$value": "ITC Garamond",
-          "$type": "fontFamilies"
+          "$type": "fontFamily"
         },
         "body": {
           "$value": "Georgia",
-          "$type": "fontFamilies"
+          "$type": "fontFamily"
         },
         "caption": {
           "$value": "Georgia",
-          "$type": "fontFamilies"
+          "$type": "fontFamily"
         },
         "footnote": {
           "$value": "Georgia",
-          "$type": "fontFamilies"
+          "$type": "fontFamily"
         },
         "code": {
           "$value": "Index",
-          "$type": "fontFamilies"
+          "$type": "fontFamily"
         }
       }
     },

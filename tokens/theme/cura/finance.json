@@ -4,35 +4,35 @@
       "surface": {
         "display": {
           "$value": "Brick",
-          "$type": "fontFamilies"
+          "$type": "fontFamily"
         },
         "title": {
           "$value": "Brick",
-          "$type": "fontFamilies"
+          "$type": "fontFamily"
         },
         "callout": {
           "$value": "Brick",
-          "$type": "fontFamilies"
+          "$type": "fontFamily"
         },
         "subtitle": {
           "$value": "Brick",
-          "$type": "fontFamilies"
+          "$type": "fontFamily"
         },
         "body": {
           "$value": "Georgia",
-          "$type": "fontFamilies"
+          "$type": "fontFamily"
         },
         "caption": {
           "$value": "Georgia",
-          "$type": "fontFamilies"
+          "$type": "fontFamily"
         },
         "footnote": {
           "$value": "Georgia",
-          "$type": "fontFamilies"
+          "$type": "fontFamily"
         },
         "code": {
           "$value": "Index",
-          "$type": "fontFamilies"
+          "$type": "fontFamily"
         }
       }
     },
@@ -126,7 +126,7 @@
       "surface": {
         "display": {
           "$value": "700",
-          "$type": "fontWeights"
+          "$type": "fontWeight"
         }
       }
     },

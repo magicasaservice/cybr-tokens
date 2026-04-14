@@ -4,35 +4,35 @@
       "surface": {
         "display": {
           "$value": "Circle",
-          "$type": "fontFamilies"
+          "$type": "fontFamily"
         },
         "title": {
           "$value": "Circle",
-          "$type": "fontFamilies"
+          "$type": "fontFamily"
         },
         "callout": {
           "$value": "Circle",
-          "$type": "fontFamilies"
+          "$type": "fontFamily"
         },
         "subtitle": {
           "$value": "Circle",
-          "$type": "fontFamilies"
+          "$type": "fontFamily"
         },
         "body": {
           "$value": "Georgia",
-          "$type": "fontFamilies"
+          "$type": "fontFamily"
         },
         "caption": {
           "$value": "Georgia",
-          "$type": "fontFamilies"
+          "$type": "fontFamily"
         },
         "footnote": {
           "$value": "Georgia",
-          "$type": "fontFamilies"
+          "$type": "fontFamily"
         },
         "code": {
           "$value": "Index",
-          "$type": "fontFamilies"
+          "$type": "fontFamily"
         }
       }
     },
