@@ -1,0 +1,20 @@
+{
+  "component": {
+    "cybrBar": {
+      "dimension": {
+        "height": {
+          "lg": {
+            "$value": "2.5rem",
+            "$type": "dimension"
+          }
+        }
+      },
+      "fontSize": {
+        "lg": {
+          "$value": "{app.fontSize.component.text.md}",
+          "$type": "fontSize"
+        }
+      }
+    }
+  }
+}

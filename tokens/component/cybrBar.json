@@ -15,6 +15,34 @@
             "$value": "0.375rem",
             "$type": "dimension"
           }
+        },
+        "height": {
+          "sm": {
+            "$value": "2rem",
+            "$type": "dimension"
+          },
+          "md": {
+            "$value": "2rem",
+            "$type": "dimension"
+          },
+          "lg": {
+            "$value": "3rem",
+            "$type": "dimension"
+          }
+        }
+      },
+      "fontSize": {
+        "sm": {
+          "$value": "{app.fontSize.component.text.md}",
+          "$type": "fontSize"
+        },
+        "md": {
+          "$value": "{app.fontSize.component.text.md}",
+          "$type": "fontSize"
+        },
+        "lg": {
+          "$value": "{app.fontSize.component.text.lg}",
+          "$type": "fontSize"
         }
       }
     }
