@@ -56,15 +56,15 @@
           },
           "link": {
             "default": {
-              "$value": "{config.color.palette.blue.solid.4}",
+              "$value": "{config.color.palette.green.solid.4}",
               "$type": "color"
             },
             "hover": {
-              "$value": "{config.color.palette.blue.solid.5}",
+              "$value": "{config.color.palette.green.solid.5}",
               "$type": "color"
             },
             "active": {
-              "$value": "{config.color.palette.blue.solid.6}",
+              "$value": "{config.color.palette.green.solid.6}",
               "$type": "color"
             }
           }
@@ -169,7 +169,7 @@
               "$type": "color"
             },
             "muted": {
-              "$value": "{config.color.palette.white.translucent.7}",
+              "$value": "{config.color.palette.neutral.solid.1}",
               "$type": "color"
             }
           }
@@ -206,7 +206,6 @@
                 "$value": "{config.color.palette.neutral.translucent.6}"
               }
             },
-
             "inverted": {
               "default": {
                 "$type": "color",
@@ -377,18 +376,6 @@
                 "$value": "{config.color.palette.neutral.solid.7}"
               }
             },
-            "onSubtle": {
-              "default": {
-                "$type": "color",
-                "$value": "{config.color.palette.neutral.solid.7}"
-              }
-            },
-            "onSubtle": {
-              "default": {
-                "$type": "color",
-                "$value": "{config.color.palette.neutral.solid.7}"
-              }
-            },
             "onLight": {
               "default": {
                 "$type": "color",
@@ -402,29 +389,29 @@
             "solid": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.blue.solid.7}"
+                "$value": "{config.color.palette.green.solid.7}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.blue.solid.8}"
+                "$value": "{config.color.palette.green.solid.8}"
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.blue.solid.9}"
+                "$value": "{config.color.palette.green.solid.9}"
               }
             },
             "subtle": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.blue.translucent.1}"
+                "$value": "{config.color.palette.green.translucent.1}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.blue.translucent.2}"
+                "$value": "{config.color.palette.green.translucent.2}"
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.blue.translucent.3}"
+                "$value": "{config.color.palette.green.translucent.3}"
               }
             },
             "light": {
@@ -439,15 +426,15 @@
             "subtle": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.blue.translucent.4}"
+                "$value": "{config.color.palette.green.translucent.4}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.blue.translucent.5}"
+                "$value": "{config.color.palette.green.translucent.5}"
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.blue.translucent.6}"
+                "$value": "{config.color.palette.green.translucent.6}"
               }
             }
           },
@@ -455,27 +442,27 @@
             "solid": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.blue.solid.7}"
+                "$value": "{config.color.palette.green.solid.7}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.blue.solid.8}"
+                "$value": "{config.color.palette.green.solid.8}"
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.blue.solid.9}"
+                "$value": "{config.color.palette.green.solid.9}"
               }
             },
             "muted": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.blue.translucent.8}"
+                "$value": "{config.color.palette.green.translucent.8}"
               }
             },
             "subtle": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.blue.translucent.6}"
+                "$value": "{config.color.palette.green.translucent.6}"
               }
             },
             "onSolid": {
@@ -487,13 +474,13 @@
             "onSubtle": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.blue.solid.1}"
+                "$value": "{config.color.palette.green.solid.1}"
               }
             },
             "onLight": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.blue.translucent.6}"
+                "$value": "{config.color.palette.green.translucent.6}"
               }
             }
           }
@@ -1066,13 +1053,13 @@
           "border": {
             "default": {
               "$type": "color",
-              "$value": "{config.color.palette.blue.solid.7}"
+              "$value": "{config.color.palette.green.solid.7}"
             }
           },
           "outline": {
             "default": {
               "$type": "color",
-              "$value": "{config.color.palette.blue.translucent.4}"
+              "$value": "{config.color.palette.green.translucent.4}"
             }
           }
         },
