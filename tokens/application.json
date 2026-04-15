@@ -108,6 +108,16 @@
                 }
               }
             },
+            "tint": {
+              "default": {
+                "$type": "color",
+                "$value": "transparent"
+              },
+              "amount": {
+                "$type": "dimension",
+                "$value": "6%"
+              }
+            },
             "gradient": {
               "$type": "gradient",
               "$extensions": {
@@ -151,6 +161,12 @@
                   "position": 1
                 }
               ]
+            }
+          },
+          "fg": {
+            "default": {
+              "$value": "{config.color.palette.neutral.solid.1}",
+              "$type": "color"
             }
           }
         }

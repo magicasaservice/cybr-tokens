@@ -9,26 +9,26 @@
           },
           "base": {
             "$type": "color",
-            "$value": "{config.color.palette.grey.solid.1}"
+            "$value": "{config.color.palette.neutral.solid.1}"
           },
           "high": {
             "$type": "color",
-            "$value": "{config.color.palette.grey.solid.2}"
+            "$value": "{config.color.palette.neutral.solid.2}"
           },
           "higher": {
             "$type": "color",
-            "$value": "{config.color.palette.grey.solid.3}"
+            "$value": "{config.color.palette.neutral.solid.3}"
           }
         },
         "border": {
           "default": {
             "$type": "color",
-            "$value": "{config.color.palette.grey.translucent.1}"
+            "$value": "{config.color.palette.neutral.translucent.1}"
           }
         },
         "fg": {
           "default": {
-            "$value": "{config.color.palette.grey.solid.12}",
+            "$value": "{config.color.palette.neutral.solid.12}",
             "$type": "color"
           },
           "muted": {
@@ -66,7 +66,7 @@
           "bg": {
             "default": {
               "$type": "color",
-              "$value": "{config.color.palette.grey.solid.3}",
+              "$value": "{config.color.palette.neutral.solid.3}",
               "$extensions": {
                 "modify": {
                   "type": "alpha",
@@ -74,24 +74,30 @@
                   "space": "oklch"
                 }
               }
+            },
+            "gradient": {
+              "$type": "gradient",
+              "$extensions": {
+                "angle": "180deg",
+                "type": "linear"
+              },
+              "$value": [
+                {
+                  "color": "oklch(1 0 0 / 40%)",
+                  "position": 0
+                },
+                {
+                  "color": "oklch(1 0 0 / 0%)",
+                  "position": 1
+                }
+              ]
             }
           },
-          "gradient": {
-            "$type": "gradient",
-            "$extensions": {
-              "angle": "180deg",
-              "type": "linear"
-            },
-            "$value": [
-              {
-                "color": "oklch(1 0 0 / 40%)",
-                "position": 0
-              },
-              {
-                "color": "oklch(1 0 0 / 0%)",
-                "position": 1
-              }
-            ]
+          "fg": {
+            "default": {
+              "$value": "{config.color.palette.neutral.solid.12}",
+              "$type": "color"
+            }
           }
         }
       },
@@ -101,49 +107,49 @@
             "solid": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.solid.12}"
+                "$value": "{config.color.palette.neutral.solid.12}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.solid.11}"
+                "$value": "{config.color.palette.neutral.solid.11}"
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.solid.10}"
+                "$value": "{config.color.palette.neutral.solid.10}"
               }
             },
             "translucent": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.translucent.1}"
+                "$value": "{config.color.palette.neutral.translucent.1}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.translucent.2}"
+                "$value": "{config.color.palette.neutral.translucent.2}"
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.translucent.3}"
+                "$value": "{config.color.palette.neutral.translucent.3}"
               }
             },
             "tone": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.solid.7}"
+                "$value": "{config.color.palette.neutral.solid.7}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.solid.8}"
+                "$value": "{config.color.palette.neutral.solid.8}"
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.solid.9}"
+                "$value": "{config.color.palette.neutral.solid.9}"
               }
             },
             "inverted": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.solid.2}"
+                "$value": "{config.color.palette.neutral.solid.2}"
               }
             }
           },
@@ -151,15 +157,15 @@
             "translucent": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.translucent.1}"
+                "$value": "{config.color.palette.neutral.translucent.1}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.translucent.2}"
+                "$value": "{config.color.palette.neutral.translucent.2}"
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.translucent.3}"
+                "$value": "{config.color.palette.neutral.translucent.3}"
               }
             }
           },
@@ -167,15 +173,15 @@
             "solid": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.solid.12}"
+                "$value": "{config.color.palette.neutral.solid.12}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.solid.11}"
+                "$value": "{config.color.palette.neutral.solid.11}"
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.solid.10}"
+                "$value": "{config.color.palette.neutral.solid.10}"
               }
             },
             "muted": {
@@ -199,13 +205,13 @@
             "onTone": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.solid.4}"
+                "$value": "{config.color.palette.neutral.solid.4}"
               }
             },
             "onTranslucent": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.solid.12}"
+                "$value": "{config.color.palette.neutral.solid.12}"
               }
             }
           }
@@ -215,43 +221,43 @@
             "solid": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.solid.7}"
+                "$value": "{config.color.palette.neutral.solid.7}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.solid.8}"
+                "$value": "{config.color.palette.neutral.solid.8}"
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.solid.9}"
+                "$value": "{config.color.palette.neutral.solid.9}"
               }
             },
             "translucent": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.translucent.1}"
+                "$value": "{config.color.palette.neutral.translucent.1}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.translucent.2}"
+                "$value": "{config.color.palette.neutral.translucent.2}"
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.translucent.3}"
+                "$value": "{config.color.palette.neutral.translucent.3}"
               }
             },
             "tone": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.solid.1}"
+                "$value": "{config.color.palette.neutral.solid.1}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.solid.2}"
+                "$value": "{config.color.palette.neutral.solid.2}"
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.solid.3}"
+                "$value": "{config.color.palette.neutral.solid.3}"
               }
             }
           },
@@ -259,15 +265,15 @@
             "translucent": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.translucent.1}"
+                "$value": "{config.color.palette.neutral.translucent.1}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.translucent.2}"
+                "$value": "{config.color.palette.neutral.translucent.2}"
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.translucent.3}"
+                "$value": "{config.color.palette.neutral.translucent.3}"
               }
             }
           },
@@ -275,13 +281,13 @@
             "muted": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.translucent.6}"
+                "$value": "{config.color.palette.neutral.translucent.6}"
               }
             },
             "subtle": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.translucent.3}"
+                "$value": "{config.color.palette.neutral.translucent.3}"
               }
             },
             "onSolid": {
@@ -293,13 +299,13 @@
             "onTone": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.solid.8}"
+                "$value": "{config.color.palette.neutral.solid.8}"
               }
             },
             "onTranslucent": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.grey.solid.8}"
+                "$value": "{config.color.palette.neutral.solid.8}"
               }
             }
           }
