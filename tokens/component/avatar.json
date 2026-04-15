@@ -22,10 +22,10 @@
             }
           }
         },
-        "translucent": {
+        "subtle": {
           "bg": {
             "default": {
-              "$value": "{app.color.component.primary.bg.translucent.default}",
+              "$value": "{app.color.component.primary.bg.subtle.default}",
               "$type": "color"
             }
           },
@@ -37,7 +37,7 @@
           },
           "fg": {
             "default": {
-              "$value": "{app.color.component.primary.fg.onTranslucent.default}",
+              "$value": "{app.color.component.primary.fg.onSubtle.default}",
               "$type": "color"
             }
           }
@@ -51,7 +51,7 @@
           },
           "border": {
             "default": {
-              "$value": "{app.color.component.primary.border.translucent.default}",
+              "$value": "{app.color.component.primary.border.subtle.default}",
               "$type": "color"
             }
           },

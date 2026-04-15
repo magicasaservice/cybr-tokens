@@ -123,7 +123,7 @@
           },
           "border": {
             "default": {
-              "$value": "{app.color.component.primary.border.translucent.default}",
+              "$value": "{app.color.component.primary.border.subtle.default}",
               "$type": "color"
             }
           },
@@ -155,19 +155,19 @@
         "danger": {
           "bg": {
             "default": {
-              "$value": "{app.color.component.danger.bg.translucent.default}",
+              "$value": "{app.color.component.danger.bg.subtle.default}",
               "$type": "color"
             }
           },
           "border": {
             "default": {
-              "$value": "{app.color.component.danger.border.translucent.default}",
+              "$value": "{app.color.component.danger.border.subtle.default}",
               "$type": "color"
             }
           },
           "fg": {
             "default": {
-              "$value": "{app.color.component.danger.fg.onTranslucent.default}",
+              "$value": "{app.color.component.danger.fg.onSubtle.default}",
               "$type": "color"
             },
             "label": {
@@ -185,7 +185,7 @@
           },
           "border": {
             "default": {
-              "$value": "{app.color.component.disabled.border.translucent.default}",
+              "$value": "{app.color.component.disabled.border.subtle.default}",
               "$type": "color"
             }
           },

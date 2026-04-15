@@ -82,7 +82,7 @@
       "component": {
         "primary": {
           "border": {
-            "translucent": {
+            "subtle": {
               "default": {
                 "$type": "color",
                 "$value": "oklch(0 0 0 / 6%)"

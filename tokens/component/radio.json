@@ -7,7 +7,7 @@
             "default": {
               "border": {
                 "default": {
-                  "$value": "{app.color.component.primary.border.translucent.default}",
+                  "$value": "{app.color.component.primary.border.subtle.default}",
                   "$type": "color"
                 },
                 "active": {
@@ -51,7 +51,7 @@
               },
               "border": {
                 "default": {
-                  "$value": "{app.color.component.disabled.border.translucent.default}",
+                  "$value": "{app.color.component.disabled.border.subtle.default}",
                   "$type": "color"
                 }
               }
@@ -59,11 +59,11 @@
             "danger": {
               "border": {
                 "default": {
-                  "$value": "{app.color.component.danger.border.translucent.default}",
+                  "$value": "{app.color.component.danger.border.subtle.default}",
                   "$type": "color"
                 },
                 "active": {
-                  "$value": "{app.color.component.danger.border.translucent.active}",
+                  "$value": "{app.color.component.danger.border.subtle.active}",
                   "$type": "color"
                 },
                 "focus": {
@@ -137,7 +137,7 @@
               },
               "border": {
                 "default": {
-                  "$value": "{app.color.component.disabled.border.translucent.default}",
+                  "$value": "{app.color.component.disabled.border.subtle.default}",
                   "$type": "color"
                 }
               }

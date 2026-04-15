@@ -130,7 +130,7 @@
                 "$type": "color"
               },
               "inactive": {
-                "$value": "{app.color.component.primary.bg.translucent.default}",
+                "$value": "{app.color.component.primary.bg.subtle.default}",
                 "$type": "color"
               }
             },
@@ -196,7 +196,7 @@
                 "$type": "color"
               },
               "inactive": {
-                "$value": "{app.color.component.disabled.bg.translucent.default}",
+                "$value": "{app.color.component.disabled.bg.subtle.default}",
                 "$type": "color"
               }
             },

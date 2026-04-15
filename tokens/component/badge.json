@@ -35,13 +35,13 @@
               "$type": "color"
             }
           },
-          "translucent": {
+          "subtle": {
             "bg": {
-              "$value": "{app.color.component.primary.bg.translucent.default}",
+              "$value": "{app.color.component.primary.bg.subtle.default}",
               "$type": "color"
             },
             "fg": {
-              "$value": "{app.color.component.primary.fg.onTranslucent.default}",
+              "$value": "{app.color.component.primary.fg.onSubtle.default}",
               "$type": "color"
             },
             "border": {
@@ -59,21 +59,7 @@
               "$type": "color"
             },
             "border": {
-              "$value": "{app.color.component.primary.border.translucent.default}",
-              "$type": "color"
-            }
-          },
-          "tone": {
-            "bg": {
-              "$value": "{app.color.component.primary.bg.tone.default}",
-              "$type": "color"
-            },
-            "fg": {
-              "$value": "{app.color.component.primary.fg.onTone.default}",
-              "$type": "color"
-            },
-            "border": {
-              "$value": "transparent",
+              "$value": "{app.color.component.primary.border.subtle.default}",
               "$type": "color"
             }
           }
@@ -93,13 +79,13 @@
               "$type": "color"
             }
           },
-          "translucent": {
+          "subtle": {
             "bg": {
-              "$value": "{app.color.component.secondary.bg.translucent.default}",
+              "$value": "{app.color.component.secondary.bg.subtle.default}",
               "$type": "color"
             },
             "fg": {
-              "$value": "{app.color.component.secondary.fg.onTranslucent.default}",
+              "$value": "{app.color.component.secondary.fg.onSubtle.default}",
               "$type": "color"
             },
             "border": {
@@ -117,21 +103,7 @@
               "$type": "color"
             },
             "border": {
-              "$value": "{app.color.component.secondary.border.translucent.default}",
-              "$type": "color"
-            }
-          },
-          "tone": {
-            "bg": {
-              "$value": "{app.color.component.secondary.bg.tone.default}",
-              "$type": "color"
-            },
-            "fg": {
-              "$value": "{app.color.component.secondary.fg.onTone.default}",
-              "$type": "color"
-            },
-            "border": {
-              "$value": "transparent",
+              "$value": "{app.color.component.secondary.border.subtle.default}",
               "$type": "color"
             }
           }
@@ -151,13 +123,13 @@
               "$type": "color"
             }
           },
-          "translucent": {
+          "subtle": {
             "bg": {
-              "$value": "{app.color.component.accent.bg.translucent.default}",
+              "$value": "{app.color.component.accent.bg.subtle.default}",
               "$type": "color"
             },
             "fg": {
-              "$value": "{app.color.component.accent.fg.onTranslucent.default}",
+              "$value": "{app.color.component.accent.fg.onSubtle.default}",
               "$type": "color"
             },
             "border": {
@@ -175,21 +147,7 @@
               "$type": "color"
             },
             "border": {
-              "$value": "{app.color.component.accent.border.translucent.default}",
-              "$type": "color"
-            }
-          },
-          "tone": {
-            "bg": {
-              "$value": "{app.color.component.accent.bg.tone.default}",
-              "$type": "color"
-            },
-            "fg": {
-              "$value": "{app.color.component.accent.fg.onTone.default}",
-              "$type": "color"
-            },
-            "border": {
-              "$value": "transparent",
+              "$value": "{app.color.component.accent.border.subtle.default}",
               "$type": "color"
             }
           }
@@ -209,13 +167,13 @@
               "$type": "color"
             }
           },
-          "translucent": {
+          "subtle": {
             "bg": {
-              "$value": "{app.color.component.danger.bg.translucent.default}",
+              "$value": "{app.color.component.danger.bg.subtle.default}",
               "$type": "color"
             },
             "fg": {
-              "$value": "{app.color.component.danger.fg.onTranslucent.default}",
+              "$value": "{app.color.component.danger.fg.onSubtle.default}",
               "$type": "color"
             },
             "border": {
@@ -233,21 +191,7 @@
               "$type": "color"
             },
             "border": {
-              "$value": "{app.color.component.danger.border.translucent.default}",
-              "$type": "color"
-            }
-          },
-          "tone": {
-            "bg": {
-              "$value": "{app.color.component.danger.bg.tone.default}",
-              "$type": "color"
-            },
-            "fg": {
-              "$value": "{app.color.component.danger.fg.onTone.default}",
-              "$type": "color"
-            },
-            "border": {
-              "$value": "transparent",
+              "$value": "{app.color.component.danger.border.subtle.default}",
               "$type": "color"
             }
           }
@@ -267,13 +211,13 @@
               "$type": "color"
             }
           },
-          "translucent": {
+          "subtle": {
             "bg": {
-              "$value": "{app.color.component.success.bg.translucent.default}",
+              "$value": "{app.color.component.success.bg.subtle.default}",
               "$type": "color"
             },
             "fg": {
-              "$value": "{app.color.component.success.fg.onTranslucent.default}",
+              "$value": "{app.color.component.success.fg.onSubtle.default}",
               "$type": "color"
             },
             "border": {
@@ -291,21 +235,7 @@
               "$type": "color"
             },
             "border": {
-              "$value": "{app.color.component.success.border.translucent.default}",
-              "$type": "color"
-            }
-          },
-          "tone": {
-            "bg": {
-              "$value": "{app.color.component.success.bg.tone.default}",
-              "$type": "color"
-            },
-            "fg": {
-              "$value": "{app.color.component.success.fg.onTone.default}",
-              "$type": "color"
-            },
-            "border": {
-              "$value": "transparent",
+              "$value": "{app.color.component.success.border.subtle.default}",
               "$type": "color"
             }
           }

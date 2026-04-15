@@ -10,11 +10,11 @@
                 "$type": "color"
               },
               "hover": {
-                "$value": "{app.color.component.primary.bg.translucent.default}",
+                "$value": "{app.color.component.primary.bg.subtle.default}",
                 "$type": "color"
               },
               "active": {
-                "$value": "{app.color.component.primary.bg.translucent.hover}",
+                "$value": "{app.color.component.primary.bg.subtle.hover}",
                 "$type": "color"
               }
             },
@@ -31,7 +31,7 @@
               },
               "label": {
                 "default": {
-                  "$value": "{app.color.component.primary.fg.onTranslucent.default}",
+                  "$value": "{app.color.component.primary.fg.onSubtle.default}",
                   "$type": "color"
                 }
               }
@@ -44,11 +44,11 @@
                 "$type": "color"
               },
               "hover": {
-                "$value": "{app.color.component.primary.bg.translucent.hover}",
+                "$value": "{app.color.component.primary.bg.subtle.hover}",
                 "$type": "color"
               },
               "active": {
-                "$value": "{app.color.component.primary.bg.translucent.active}",
+                "$value": "{app.color.component.primary.bg.subtle.active}",
                 "$type": "color"
               }
             },
@@ -69,7 +69,7 @@
                   "$type": "color"
                 },
                 "hover": {
-                  "$value": "{app.color.component.primary.fg.onTranslucent.default}",
+                  "$value": "{app.color.component.primary.fg.onSubtle.default}",
                   "$type": "color"
                 }
               }
@@ -84,7 +84,7 @@
                 "$type": "color"
               },
               "hover": {
-                "$value": "{app.color.component.disabled.bg.translucent.default}",
+                "$value": "{app.color.component.disabled.bg.subtle.default}",
                 "$type": "color"
               }
             },
@@ -101,7 +101,7 @@
               },
               "label": {
                 "default": {
-                  "$value": "{app.color.component.disabled.fg.onTranslucent.default}",
+                  "$value": "{app.color.component.disabled.fg.onSubtle.default}",
                   "$type": "color"
                 }
               }
@@ -114,7 +114,7 @@
                 "$type": "color"
               },
               "hover": {
-                "$value": "{app.color.component.disabled.bg.translucent.default}",
+                "$value": "{app.color.component.disabled.bg.subtle.default}",
                 "$type": "color"
               }
             },
@@ -135,7 +135,7 @@
                   "$type": "color"
                 },
                 "hover": {
-                  "$value": "{app.color.component.disabled.fg.onTranslucent.default}",
+                  "$value": "{app.color.component.disabled.fg.onSubtle.default}",
                   "$type": "color"
                 }
               }
