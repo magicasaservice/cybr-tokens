@@ -167,6 +167,10 @@
             "default": {
               "$value": "{config.color.palette.neutral.solid.1}",
               "$type": "color"
+            },
+            "muted": {
+              "$value": "{config.color.palette.white.translucent.7}",
+              "$type": "color"
             }
           }
         }
