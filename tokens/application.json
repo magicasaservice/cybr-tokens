@@ -209,7 +209,7 @@
             "inverted": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.neutral.solid.11}"
+                "$value": "{config.color.palette.black.solid}"
               }
             },
             "light": {

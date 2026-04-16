@@ -125,21 +125,21 @@
             "subtle": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.neutral.translucent.1}"
+                "$value": "{config.color.palette.neutral.translucent.4}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.neutral.translucent.2}"
+                "$value": "{config.color.palette.neutral.translucent.5}"
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.neutral.translucent.3}"
+                "$value": "{config.color.palette.neutral.translucent.6}"
               }
             },
             "inverted": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.neutral.solid.2}"
+                "$value": "{config.color.palette.white.solid}"
               }
             }
           },
