@@ -279,15 +279,15 @@
             "subtle": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.green.translucent.2}"
+                "$value": "{config.color.palette.lime.translucent.2}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.green.translucent.3}"
+                "$value": "{config.color.palette.lime.translucent.3}"
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.green.translucent.4}"
+                "$value": "{config.color.palette.lime.translucent.4}"
               }
             }
           },
@@ -295,19 +295,19 @@
             "muted": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.green.translucent.12}"
+                "$value": "{config.color.palette.lime.translucent.12}"
               }
             },
             "subtle": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.green.translucent.6}"
+                "$value": "{config.color.palette.lime.translucent.6}"
               }
             },
             "onSubtle": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.green.solid.12}"
+                "$value": "{config.color.palette.lime.solid.12}"
               }
             }
           }
