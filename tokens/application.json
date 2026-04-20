@@ -1141,11 +1141,11 @@
     "fontFamily": {
       "component": {
         "text": {
-          "$value": "CYBR Sans",
+          "$value": "cybrSans",
           "$type": "fontFamily"
         },
         "symbol": {
-          "$value": "CYBR Glyphs",
+          "$value": "cybrGlyphs",
           "$type": "fontFamily"
         },
         "number": {
@@ -1155,31 +1155,31 @@
       },
       "surface": {
         "display": {
-          "$value": "CYBR Sans",
+          "$value": "cybrSans",
           "$type": "fontFamily"
         },
         "title": {
-          "$value": "CYBR Sans",
+          "$value": "cybrSans",
           "$type": "fontFamily"
         },
         "callout": {
-          "$value": "CYBR Sans",
+          "$value": "cybrSans",
           "$type": "fontFamily"
         },
         "subtitle": {
-          "$value": "CYBR Sans",
+          "$value": "cybrSans",
           "$type": "fontFamily"
         },
         "body": {
-          "$value": "CYBR Sans",
+          "$value": "cybrSans",
           "$type": "fontFamily"
         },
         "caption": {
-          "$value": "CYBR Sans",
+          "$value": "cybrSans",
           "$type": "fontFamily"
         },
         "footnote": {
-          "$value": "CYBR Sans",
+          "$value": "cybrSans",
           "$type": "fontFamily"
         },
         "code": {
