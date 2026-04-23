@@ -1942,6 +1942,10 @@
             "$type": "dimension"
           },
           "compact": {
+            "2xs": {
+              "$value": "{config.dimension.radius.base} * 0.25",
+              "$type": "dimension"
+            },
             "xs": {
               "$value": "{config.dimension.radius.base} * 0.5",
               "$type": "dimension"

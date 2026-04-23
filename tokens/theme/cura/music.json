@@ -38,6 +38,78 @@
     },
     "fontSize": {
       "surface": {
+        "display": {
+          "sm": {
+            "$value": "2.25rem",
+            "$type": "fontSizes"
+          },
+          "md": {
+            "$value": "2.75rem",
+            "$type": "fontSizes"
+          },
+          "lg": {
+            "$value": "3.25rem",
+            "$type": "fontSizes"
+          },
+          "xl": {
+            "$value": "3.75rem",
+            "$type": "fontSizes"
+          }
+        },
+        "title": {
+          "sm": {
+            "$value": "1.6875rem",
+            "$type": "fontSizes"
+          },
+          "md": {
+            "$value": "1.875rem",
+            "$type": "fontSizes"
+          },
+          "lg": {
+            "$value": "2.0625rem",
+            "$type": "fontSizes"
+          },
+          "xl": {
+            "$value": "2.25rem",
+            "$type": "fontSizes"
+          }
+        },
+        "subtitle": {
+          "sm": {
+            "$value": "1.5rem",
+            "$type": "fontSizes"
+          },
+          "md": {
+            "$value": "1.6875rem",
+            "$type": "fontSizes"
+          },
+          "lg": {
+            "$value": "1.875rem",
+            "$type": "fontSizes"
+          },
+          "xl": {
+            "$value": "2.0625rem",
+            "$type": "fontSizes"
+          }
+        },
+        "callout": {
+          "sm": {
+            "$value": "0.875rem",
+            "$type": "fontSizes"
+          },
+          "md": {
+            "$value": "1rem",
+            "$type": "fontSizes"
+          },
+          "lg": {
+            "$value": "1.125rem",
+            "$type": "fontSizes"
+          },
+          "xl": {
+            "$value": "1.25rem",
+            "$type": "fontSizes"
+          }
+        },
         "body": {
           "sm": {
             "$value": "1rem",
