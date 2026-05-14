@@ -26,7 +26,7 @@
             "$type": "dimension"
           },
           "lg": {
-            "$value": "3rem",
+            "$value": "2.5rem",
             "$type": "dimension"
           }
         }
