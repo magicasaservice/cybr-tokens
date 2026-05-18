@@ -1941,59 +1941,37 @@
             "$value": "9999px",
             "$type": "dimension"
           },
-          "compact": {
-            "2xs": {
-              "$value": "{config.dimension.radius.base} * 0.25",
-              "$type": "dimension"
-            },
-            "xs": {
-              "$value": "{config.dimension.radius.base} * 0.5",
-              "$type": "dimension"
-            },
-            "sm": {
-              "$value": "{config.dimension.radius.base} * 1",
-              "$type": "dimension"
-            },
-            "md": {
-              "$value": "{config.dimension.radius.base} * 1.5",
-              "$type": "dimension"
-            },
-            "lg": {
-              "$value": "{config.dimension.radius.base} * 2",
-              "$type": "dimension"
-            },
-            "xl": {
-              "$value": "{config.dimension.radius.base} * 2.5",
-              "$type": "dimension"
-            }
-          },
           "default": {
             "2xs": {
-              "$value": "{config.dimension.radius.base} * 3",
+              "$value": "0rem",
               "$type": "dimension"
             },
             "xs": {
-              "$value": "{config.dimension.radius.base} * 3.5",
+              "$value": "0rem",
               "$type": "dimension"
             },
             "sm": {
-              "$value": "{config.dimension.radius.base} * 4",
+              "$value": "0.0625rem",
               "$type": "dimension"
             },
             "md": {
-              "$value": "{config.dimension.radius.base} * 4.5",
+              "$value": "0.125rem",
               "$type": "dimension"
             },
             "lg": {
-              "$value": "{config.dimension.radius.base} * 5",
+              "$value": "0.375rem",
               "$type": "dimension"
             },
             "xl": {
-              "$value": "{config.dimension.radius.base} * 5.5",
+              "$value": "0.625rem",
               "$type": "dimension"
             },
             "2xl": {
-              "$value": "{config.dimension.radius.base} * 6",
+              "$value": "0.875rem",
+              "$type": "dimension"
+            },
+            "3xl": {
+              "$value": "1.125rem",
               "$type": "dimension"
             }
           }
