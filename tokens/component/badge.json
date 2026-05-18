@@ -280,19 +280,19 @@
         },
         "radius": {
           "xs": {
-            "$value": "{app.dimension.component.radius.compact.sm}",
+            "$value": "{app.dimension.component.radius.2xs}",
             "$type": "dimension"
           },
           "sm": {
-            "$value": "{app.dimension.component.radius.compact.md}",
+            "$value": "{app.dimension.component.radius.xs}",
             "$type": "dimension"
           },
           "md": {
-            "$value": "{app.dimension.component.radius.compact.lg}",
+            "$value": "{app.dimension.component.radius.sm}",
             "$type": "dimension"
           },
           "lg": {
-            "$value": "{app.dimension.component.radius.compact.xl}",
+            "$value": "{app.dimension.component.radius.md}",
             "$type": "dimension"
           }
         },
