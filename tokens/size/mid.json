@@ -3,10 +3,6 @@
     "dimension": {
       "component": {
         "radius": {
-          "round": {
-            "$value": "9999px",
-            "$type": "dimension"
-          },
           "default": {
             "2xs": {
               "$value": "0rem",

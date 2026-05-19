@@ -5,35 +5,35 @@
         "radius": {
           "default": {
             "2xs": {
-              "$value": "0.0625rem",
+              "$value": "0rem",
               "$type": "dimension"
             },
             "xs": {
-              "$value": "0.25rem",
+              "$value": "0.0625rem",
               "$type": "dimension"
             },
             "sm": {
-              "$value": "0.5rem",
+              "$value": "0.1875rem",
               "$type": "dimension"
             },
             "md": {
-              "$value": "0.75rem",
+              "$value": "0.4375rem",
               "$type": "dimension"
             },
             "lg": {
-              "$value": "1rem",
+              "$value": "0.6875rem",
               "$type": "dimension"
             },
             "xl": {
-              "$value": "1.25rem",
+              "$value": "0.9375rem",
               "$type": "dimension"
             },
             "2xl": {
-              "$value": "1.5rem",
+              "$value": "1.1875rem",
               "$type": "dimension"
             },
             "3xl": {
-              "$value": "1.75rem",
+              "$value": "1.4375rem",
               "$type": "dimension"
             }
           }
