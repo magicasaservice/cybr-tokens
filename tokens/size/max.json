@@ -3,39 +3,37 @@
     "dimension": {
       "component": {
         "radius": {
-          "default": {
-            "2xs": {
-              "$value": "0.0625rem",
-              "$type": "dimension"
-            },
-            "xs": {
-              "$value": "0.25rem",
-              "$type": "dimension"
-            },
-            "sm": {
-              "$value": "0.5rem",
-              "$type": "dimension"
-            },
-            "md": {
-              "$value": "0.75rem",
-              "$type": "dimension"
-            },
-            "lg": {
-              "$value": "1rem",
-              "$type": "dimension"
-            },
-            "xl": {
-              "$value": "1.25rem",
-              "$type": "dimension"
-            },
-            "2xl": {
-              "$value": "1.5rem",
-              "$type": "dimension"
-            },
-            "3xl": {
-              "$value": "1.75rem",
-              "$type": "dimension"
-            }
+          "2xs": {
+            "$value": "0.0625rem",
+            "$type": "dimension"
+          },
+          "xs": {
+            "$value": "0.25rem",
+            "$type": "dimension"
+          },
+          "sm": {
+            "$value": "0.5rem",
+            "$type": "dimension"
+          },
+          "md": {
+            "$value": "0.75rem",
+            "$type": "dimension"
+          },
+          "lg": {
+            "$value": "1rem",
+            "$type": "dimension"
+          },
+          "xl": {
+            "$value": "1.25rem",
+            "$type": "dimension"
+          },
+          "2xl": {
+            "$value": "1.5rem",
+            "$type": "dimension"
+          },
+          "3xl": {
+            "$value": "1.75rem",
+            "$type": "dimension"
           }
         }
       }
