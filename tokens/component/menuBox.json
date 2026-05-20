@@ -4,11 +4,11 @@
       "dimension": {
         "padding": {
           "x": {
-            "$value": "{app.dimension.component.spacing.1}",
+            "$value": "0.25rem",
             "$type": "dimension"
           },
           "y": {
-            "$value": "{app.dimension.component.spacing.1}",
+            "$value": "0.25rem",
             "$type": "dimension"
           }
         },

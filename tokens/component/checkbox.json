@@ -301,15 +301,15 @@
         "input": {
           "height": {
             "sm": {
-              "$value": "{app.dimension.component.spacing.4}",
+              "$value": "1rem",
               "$type": "dimension"
             },
             "md": {
-              "$value": "{app.dimension.component.spacing.5}",
+              "$value": "1.25rem",
               "$type": "dimension"
             },
             "lg": {
-              "$value": "{app.dimension.component.spacing.6}",
+              "$value": "1.5rem",
               "$type": "dimension"
             }
           },
@@ -364,15 +364,15 @@
           "symbol": {
             "size": {
               "sm": {
-                "$value": "{app.dimension.component.spacing.3}",
+                "$value": "0.75rem",
                 "$type": "dimension"
               },
               "md": {
-                "$value": "{app.dimension.component.spacing.3_75}",
+                "$value": "0.9375rem",
                 "$type": "dimension"
               },
               "lg": {
-                "$value": "{app.dimension.component.spacing.4_5}",
+                "$value": "1.125rem",
                 "$type": "dimension"
               }
             }
@@ -399,15 +399,15 @@
         },
         "gap": {
           "sm": {
-            "$value": "{app.dimension.component.spacing.2}",
+            "$value": "0.5rem",
             "$type": "dimension"
           },
           "md": {
-            "$value": "{app.dimension.component.spacing.3}",
+            "$value": "0.75rem",
             "$type": "dimension"
           },
           "lg": {
-            "$value": "{app.dimension.component.spacing.4}",
+            "$value": "1rem",
             "$type": "dimension"
           }
         },

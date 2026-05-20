@@ -113,45 +113,45 @@
         "height": {
           "default": {
             "xs": {
-              "$value": "{app.dimension.component.spacing.8}",
+              "$value": "2rem",
               "$type": "dimension"
             },
             "sm": {
-              "$value": "{app.dimension.component.spacing.10}",
+              "$value": "2.5rem",
               "$type": "dimension"
             },
             "md": {
-              "$value": "{app.dimension.component.spacing.12}",
+              "$value": "3rem",
               "$type": "dimension"
             },
             "lg": {
-              "$value": "{app.dimension.component.spacing.14}",
+              "$value": "3.5rem",
               "$type": "dimension"
             },
             "xl": {
-              "$value": "{app.dimension.component.spacing.16}",
+              "$value": "4rem",
               "$type": "dimension"
             }
           },
           "inline": {
             "xs": {
-              "$value": "{app.dimension.component.spacing.6}",
+              "$value": "1.5rem",
               "$type": "dimension"
             },
             "sm": {
-              "$value": "{app.dimension.component.spacing.8}",
+              "$value": "2rem",
               "$type": "dimension"
             },
             "md": {
-              "$value": "{app.dimension.component.spacing.10}",
+              "$value": "2.5rem",
               "$type": "dimension"
             },
             "lg": {
-              "$value": "{app.dimension.component.spacing.12}",
+              "$value": "3rem",
               "$type": "dimension"
             },
             "xl": {
-              "$value": "{app.dimension.component.spacing.14}",
+              "$value": "3.5rem",
               "$type": "dimension"
             }
           }
@@ -211,45 +211,45 @@
         "icon": {
           "default": {
             "xs": {
-              "$value": "{app.dimension.component.spacing.4_5}",
+              "$value": "1.125rem",
               "$type": "dimension"
             },
             "sm": {
-              "$value": "{app.dimension.component.spacing.5_25}",
+              "$value": "1.3125rem",
               "$type": "dimension"
             },
             "md": {
-              "$value": "{app.dimension.component.spacing.6}",
+              "$value": "1.5rem",
               "$type": "dimension"
             },
             "lg": {
-              "$value": "{app.dimension.component.spacing.6_75}",
+              "$value": "1.6875rem",
               "$type": "dimension"
             },
             "xl": {
-              "$value": "{app.dimension.component.spacing.7_5}",
+              "$value": "1.875rem",
               "$type": "dimension"
             }
           },
           "inline": {
             "xs": {
-              "$value": "{app.dimension.component.spacing.3_5}",
+              "$value": "0.875rem",
               "$type": "dimension"
             },
             "sm": {
-              "$value": "{app.dimension.component.spacing.4_25}",
+              "$value": "1.0625rem",
               "$type": "dimension"
             },
             "md": {
-              "$value": "{app.dimension.component.spacing.5}",
+              "$value": "1.25rem",
               "$type": "dimension"
             },
             "lg": {
-              "$value": "{app.dimension.component.spacing.5_75}",
+              "$value": "1.4375rem",
               "$type": "dimension"
             },
             "xl": {
-              "$value": "{app.dimension.component.spacing.6_5}",
+              "$value": "1.625rem",
               "$type": "dimension"
             }
           }

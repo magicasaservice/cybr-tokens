@@ -34,7 +34,7 @@
       "dimension": {
         "track": {
           "height": {
-            "$value": "{app.dimension.component.spacing.1}",
+            "$value": "0.25rem",
             "$type": "dimension"
           },
           "border": {
@@ -48,7 +48,7 @@
         },
         "container": {
           "height": {
-            "$value": "{app.dimension.component.spacing.8}",
+            "$value": "2rem",
             "$type": "dimension"
           },
           "padding": {
@@ -62,7 +62,7 @@
         },
         "handle": {
           "height": {
-            "$value": "{app.dimension.component.spacing.3_75}",
+            "$value": "0.9375rem",
             "$type": "dimension"
           },
           "width": {
@@ -85,18 +85,18 @@
           },
           "pressed": {
             "height": {
-              "$value": "{app.dimension.component.spacing.4_25}",
+              "$value": "1.0625rem",
               "$type": "dimension"
             },
             "width": {
-              "$value": "{app.dimension.component.spacing.4_25}",
+              "$value": "1.0625rem",
               "$type": "dimension"
             }
           }
         },
         "step": {
           "height": {
-            "$value": "{component.slider.dimension.track.height} - {app.dimension.component.spacing.0_25}",
+            "$value": "{component.slider.dimension.track.height} - 0.0625rem",
             "$type": "dimension"
           },
           "width": {
@@ -104,7 +104,7 @@
             "$type": "dimension"
           },
           "radius": {
-            "$value": "{app.dimension.component.spacing.4}",
+            "$value": "1rem",
             "$type": "dimension"
           }
         },
