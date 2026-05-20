@@ -80,7 +80,7 @@
             }
           },
           "radius": {
-            "$value": "{app.dimension.component.radius.default.lg}",
+            "$value": "{app.dimension.component.radius.lg}",
             "$type": "dimension"
           },
           "pressed": {
