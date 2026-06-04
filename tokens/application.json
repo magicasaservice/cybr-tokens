@@ -468,7 +468,7 @@
             "onSolid": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.white.solid}"
+                "$value": "{config.color.palette.black.solid}"
               }
             },
             "onSubtle": {
@@ -670,7 +670,7 @@
             "onSolid": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.white.solid}"
+                "$value": "{config.color.palette.black.solid}"
               }
             },
             "onSubtle": {
