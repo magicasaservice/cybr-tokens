@@ -2,6 +2,20 @@
   "component": {
     "cybrBar": {
       "dimension": {
+        "maxWidth": {
+          "max": {
+            "$value": "21rem",
+            "$type": "dimension"
+          },
+          "mid": {
+            "$value": "13.75rem",
+            "$type": "dimension"
+          },
+          "min": {
+            "$value": "7rem",
+            "$type": "dimension"
+          }
+        },
         "radius": {
           "sm": {
             "$value": "0.375rem",

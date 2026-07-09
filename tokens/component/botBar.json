@@ -1,0 +1,32 @@
+{
+  "component": {
+    "botBar": {
+      "dimension": {
+        "width": {
+          "default": {
+            "$value": "22rem",
+            "$type": "dimension"
+          },
+          "nano": {
+            "$value": "3.5rem",
+            "$type": "dimension"
+          }
+        },
+        "height": {
+          "sm": {
+            "$value": "2rem",
+            "$type": "dimension"
+          },
+          "md": {
+            "$value": "2rem",
+            "$type": "dimension"
+          },
+          "lg": {
+            "$value": "2.5rem",
+            "$type": "dimension"
+          }
+        }
+      }
+    }
+  }
+}

@@ -138,29 +138,56 @@
           },
           "border": {
             "gradient": {
-              "$type": "gradient",
-              "$extensions": {
-                "angle": "165deg",
-                "type": "linear"
+              "default": {
+                "$type": "gradient",
+                "$extensions": {
+                  "angle": "165deg",
+                  "type": "linear"
+                },
+                "$value": [
+                  {
+                    "color": "oklch(1 0 0 / 12%)",
+                    "position": 0
+                  },
+                  {
+                    "color": "oklch(1 0 0 / 6%)",
+                    "position": 0.33
+                  },
+                  {
+                    "color": "oklch(1 0 0 / 6%)",
+                    "position": 0.66
+                  },
+                  {
+                    "color": "oklch(1 0 0 / 4%)",
+                    "position": 1
+                  }
+                ]
               },
-              "$value": [
-                {
-                  "color": "oklch(1 0 0 / 12%)",
-                  "position": 0
+              "muted": {
+                "$type": "gradient",
+                "$extensions": {
+                  "angle": "165deg",
+                  "type": "linear"
                 },
-                {
-                  "color": "oklch(1 0 0 / 6%)",
-                  "position": 0.33
-                },
-                {
-                  "color": "oklch(1 0 0 / 6%)",
-                  "position": 0.66
-                },
-                {
-                  "color": "oklch(1 0 0 / 4%)",
-                  "position": 1
-                }
-              ]
+                "$value": [
+                  {
+                    "color": "oklch(1 0 0 / 4%)",
+                    "position": 0
+                  },
+                  {
+                    "color": "oklch(1 0 0 / 1%)",
+                    "position": 0.33
+                  },
+                  {
+                    "color": "oklch(1 0 0 / 1%)",
+                    "position": 0.66
+                  },
+                  {
+                    "color": "oklch(1 0 0 / 4%)",
+                    "position": 1
+                  }
+                ]
+              }
             }
           },
           "fg": {
