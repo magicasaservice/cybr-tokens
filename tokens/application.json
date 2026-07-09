@@ -5,19 +5,19 @@
         "bg": {
           "low": {
             "$type": "color",
-            "$value": "{config.color.palette.black.solid}"
+            "$value": "{config.color.palette.neutral.solid.12}"
           },
           "base": {
             "$type": "color",
-            "$value": "{config.color.palette.neutral.solid.12}"
+            "$value": "{config.color.palette.black.solid}"
           },
           "high": {
             "$type": "color",
-            "$value": "{config.color.palette.neutral.solid.11}"
+            "$value": "{config.color.palette.neutral.solid.12}"
           },
           "higher": {
             "$type": "color",
-            "$value": "{config.color.palette.neutral.solid.10}"
+            "$value": "{config.color.palette.black.solid}"
           },
           "dimmer": {
             "$value": "{config.color.palette.black.solid}",
