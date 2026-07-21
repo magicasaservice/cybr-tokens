@@ -211,6 +211,12 @@
                 "$type": "color",
                 "$value": "{config.color.palette.neutral.solid.12}"
               }
+            },
+            "onMuted": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.neutral.solid.12}"
+              }
             }
           }
         },
@@ -242,6 +248,20 @@
               "active": {
                 "$type": "color",
                 "$value": "{config.color.palette.neutral.translucent.3}"
+              }
+            },
+            "muted": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.neutral.translucent.3}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.neutral.translucent.4}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.neutral.translucent.5}"
               }
             }
           },
@@ -285,6 +305,12 @@
                 "$type": "color",
                 "$value": "{config.color.palette.neutral.solid.8}"
               }
+            },
+            "onMuted": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.neutral.solid.8}"
+              }
             }
           }
         },
@@ -303,6 +329,20 @@
                 "$type": "color",
                 "$value": "{config.color.palette.lime.translucent.4}"
               }
+            },
+            "muted": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.lime.translucent.3}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.lime.translucent.4}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.lime.translucent.5}"
+              }
             }
           },
           "fg": {
@@ -319,6 +359,12 @@
               }
             },
             "onSubtle": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.lime.solid.12}"
+              }
+            },
+            "onMuted": {
               "default": {
                 "$type": "color",
                 "$value": "{config.color.palette.lime.solid.12}"
@@ -341,6 +387,20 @@
                 "$type": "color",
                 "$value": "{config.color.palette.red.translucent.4}"
               }
+            },
+            "muted": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.red.translucent.3}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.red.translucent.4}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.red.translucent.5}"
+              }
             }
           },
           "fg": {
@@ -357,6 +417,12 @@
               }
             },
             "onSubtle": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.red.solid.12}"
+              }
+            },
+            "onMuted": {
               "default": {
                 "$type": "color",
                 "$value": "{config.color.palette.red.solid.12}"
@@ -378,6 +444,20 @@
               "active": {
                 "$type": "color",
                 "$value": "{config.color.palette.green.translucent.4}"
+              }
+            },
+            "muted": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.translucent.3}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.translucent.4}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.translucent.5}"
               }
             }
           },
@@ -413,6 +493,12 @@
                 "$type": "color",
                 "$value": "{config.color.palette.green.solid.12}"
               }
+            },
+            "onMuted": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.green.solid.12}"
+              }
             }
           }
         },
@@ -430,6 +516,20 @@
               "active": {
                 "$type": "color",
                 "$value": "{config.color.palette.yellow.translucent.4}"
+              }
+            },
+            "muted": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.yellow.translucent.3}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.yellow.translucent.4}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.yellow.translucent.5}"
               }
             }
           },
@@ -465,6 +565,12 @@
                 "$type": "color",
                 "$value": "{config.color.palette.yellow.solid.12}"
               }
+            },
+            "onMuted": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.yellow.solid.12}"
+              }
             }
           }
         },
@@ -496,6 +602,20 @@
               "active": {
                 "$type": "color",
                 "$value": "{config.color.palette.neutral.translucent.4}"
+              }
+            },
+            "muted": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.neutral.translucent.3}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.neutral.translucent.4}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.neutral.translucent.5}"
               }
             },
             "inverted": {
@@ -543,6 +663,12 @@
                 "$type": "color",
                 "$value": "{config.color.palette.neutral.solid.12}"
               }
+            },
+            "onMuted": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.neutral.solid.12}"
+              }
             }
           }
         },
@@ -576,6 +702,30 @@
               "hover": {
                 "$type": "color",
                 "$value": "{app.color.component.neutral.bg.subtle.hover}",
+                "$extensions": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.2",
+                    "space": "oklch"
+                  }
+                }
+              }
+            },
+            "muted": {
+              "default": {
+                "$type": "color",
+                "$value": "{app.color.component.neutral.bg.muted.default}",
+                "$extensions": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.2",
+                    "space": "oklch"
+                  }
+                }
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{app.color.component.neutral.bg.muted.hover}",
                 "$extensions": {
                   "modify": {
                     "type": "alpha",
@@ -682,6 +832,19 @@
               "default": {
                 "$type": "color",
                 "$value": "{app.color.component.neutral.fg.onSubtle.default}",
+                "$extensions": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": "0.12",
+                    "space": "oklch"
+                  }
+                }
+              }
+            },
+            "onMuted": {
+              "default": {
+                "$type": "color",
+                "$value": "{app.color.component.neutral.fg.onMuted.default}",
                 "$extensions": {
                   "modify": {
                     "type": "alpha",
