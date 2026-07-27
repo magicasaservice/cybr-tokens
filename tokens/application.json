@@ -1418,7 +1418,7 @@
             "$type": "fontWeight"
           },
           "strong": {
-            "$value": "{config.fontWeight.bold}",
+            "$value": "{config.fontWeight.semibold}",
             "$type": "fontWeight"
           }
         },
