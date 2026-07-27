@@ -2006,54 +2006,6 @@
             }
           }
         }
-      },
-      "surface": {
-        "padding": {
-          "container": {
-            "default": {
-              "$value": "0.5rem",
-              "$type": "dimension"
-            }
-          }
-        },
-        "radius": {
-          "sm": {
-            "default": {
-              "$value": "{config.dimension.spacing.base} * 7",
-              "$type": "dimension"
-            },
-            "inset": {
-              "$value": "{app.dimension.surface.radius.sm.default} - {app.dimension.surface.padding.container.default}",
-              "$type": "dimension"
-            }
-          },
-          "md": {
-            "default": {
-              "$value": "{config.dimension.spacing.base} * 8",
-              "$type": "dimension"
-            },
-            "inset": {
-              "$value": "{app.dimension.surface.radius.md.default} - {app.dimension.surface.padding.container.default}",
-              "$type": "dimension"
-            }
-          },
-          "lg": {
-            "default": {
-              "$value": "{config.dimension.spacing.base} * 9",
-              "$type": "dimension"
-            },
-            "inset": {
-              "$value": "{app.dimension.surface.radius.lg.default} - {app.dimension.surface.padding.container.default}",
-              "$type": "dimension"
-            }
-          }
-        },
-        "border": {
-          "default": {
-            "$value": "2px",
-            "$type": "dimension"
-          }
-        }
       }
     }
   }
