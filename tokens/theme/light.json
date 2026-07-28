@@ -933,7 +933,6 @@
       }
     }
   },
-
   "app": {
     "color": {
       "surface": {
@@ -998,6 +997,102 @@
       },
       "material": {
         "alpha": {
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "oklch(0.92 0 0 / 72%)"
+            },
+            "gradient": {
+              "stop-0": {
+                "$type": "color",
+                "$value": "oklch(0.985 0 0 / 40%)"
+              },
+              "stop-100": {
+                "$type": "color",
+                "$value": "oklch(0.985 0 0 / 20%)"
+              }
+            }
+          },
+          "border": {
+            "gradient": {
+              "stop-0": {
+                "$type": "color",
+                "$value": "oklch(0.985 0 0 / 20%)"
+              },
+              "stop-33": {
+                "$type": "color",
+                "$value": "oklch(0.985 0 0 / 4%)"
+              },
+              "stop-66": {
+                "$type": "color",
+                "$value": "oklch(0.985 0 0 / 4%)"
+              },
+              "stop-100": {
+                "$type": "color",
+                "$value": "oklch(0.985 0 0 / 20%)"
+              }
+            }
+          },
+          "fg": {
+            "default": {
+              "$value": "oklch(0.11 0 0)",
+              "$type": "color"
+            },
+            "muted": {
+              "$value": "oklch(0.11 0 0)",
+              "$type": "color"
+            }
+          }
+        },
+        "beta": {
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "oklch(0.92 0 0 / 72%)"
+            },
+            "gradient": {
+              "stop-0": {
+                "$type": "color",
+                "$value": "oklch(0.985 0 0 / 40%)"
+              },
+              "stop-100": {
+                "$type": "color",
+                "$value": "oklch(0.985 0 0 / 20%)"
+              }
+            }
+          },
+          "border": {
+            "gradient": {
+              "stop-0": {
+                "$type": "color",
+                "$value": "oklch(0.985 0 0 / 20%)"
+              },
+              "stop-33": {
+                "$type": "color",
+                "$value": "oklch(0.985 0 0 / 4%)"
+              },
+              "stop-66": {
+                "$type": "color",
+                "$value": "oklch(0.985 0 0 / 4%)"
+              },
+              "stop-100": {
+                "$type": "color",
+                "$value": "oklch(0.985 0 0 / 20%)"
+              }
+            }
+          },
+          "fg": {
+            "default": {
+              "$value": "oklch(0.11 0 0)",
+              "$type": "color"
+            },
+            "muted": {
+              "$value": "oklch(0.11 0 0)",
+              "$type": "color"
+            }
+          }
+        },
+        "gamma": {
           "bg": {
             "default": {
               "$type": "color",
