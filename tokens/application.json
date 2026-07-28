@@ -95,108 +95,50 @@
         }
       },
       "material": {
-        "base": {
+        "alpha": {
           "bg": {
             "default": {
               "$type": "color",
-              "$value": "{config.color.palette.neutral.solid.12}",
-              "$extensions": {
-                "modify": {
-                  "type": "alpha",
-                  "value": "0.84",
-                  "space": "oklch"
-                }
-              }
-            },
-            "tint": {
-              "default": {
-                "$type": "color",
-                "$value": "transparent"
-              },
-              "amount": {
-                "$type": "dimension",
-                "$value": "6%"
-              }
+              "$value": "oklch(0.17 0 0 / 90%)"
             },
             "gradient": {
-              "$type": "gradient",
-              "$extensions": {
-                "angle": "180deg",
-                "type": "linear"
+              "stop-0": {
+                "$type": "color",
+                "$value": "oklch(0.985 0 0 / 4%)"
               },
-              "$value": [
-                {
-                  "color": "oklch(1 0 0 / 4%)",
-                  "position": 0
-                },
-                {
-                  "color": "oklch(1 0 0 / 0%)",
-                  "position": 1
-                }
-              ]
+              "stop-100": {
+                "$type": "color",
+                "$value": "oklch(0.985 0 0 / 0%)"
+              }
             }
           },
           "border": {
             "gradient": {
-              "default": {
-                "$type": "gradient",
-                "$extensions": {
-                  "angle": "165deg",
-                  "type": "linear"
-                },
-                "$value": [
-                  {
-                    "color": "oklch(1 0 0 / 12%)",
-                    "position": 0
-                  },
-                  {
-                    "color": "oklch(1 0 0 / 6%)",
-                    "position": 0.33
-                  },
-                  {
-                    "color": "oklch(1 0 0 / 6%)",
-                    "position": 0.66
-                  },
-                  {
-                    "color": "oklch(1 0 0 / 12%)",
-                    "position": 1
-                  }
-                ]
+              "stop-0": {
+                "$type": "color",
+                "$value": "oklch(0.985 0 0 / 6%)"
               },
-              "muted": {
-                "$type": "gradient",
-                "$extensions": {
-                  "angle": "165deg",
-                  "type": "linear"
-                },
-                "$value": [
-                  {
-                    "color": "oklch(1 0 0 / 6%)",
-                    "position": 0
-                  },
-                  {
-                    "color": "oklch(1 0 0 / 2%)",
-                    "position": 0.33
-                  },
-                  {
-                    "color": "oklch(1 0 0 / 2%)",
-                    "position": 0.66
-                  },
-                  {
-                    "color": "oklch(1 0 0 / 6%)",
-                    "position": 1
-                  }
-                ]
+              "stop-33": {
+                "$type": "color",
+                "$value": "oklch(0.985 0 0 / 1%)"
+              },
+              "stop-66": {
+                "$type": "color",
+                "$value": "oklch(0.985 0 0 / 1%)"
+              },
+              "stop-100": {
+                "$type": "color",
+                "$value": "oklch(0.985 0 0 / 6%)"
               }
             }
           },
           "fg": {
             "default": {
-              "$value": "{config.color.palette.neutral.solid.1}",
+              "$value": "oklch(0.96 0 0)",
               "$type": "color"
             },
             "muted": {
-              "$value": "{config.color.palette.neutral.solid.1}",
+              "$value": "oklch(0.96 0 0)",
               "$type": "color"
             }
           }
@@ -1297,48 +1239,69 @@
       "component": {
         "default": {
           "$value": {
-            "x": "0",
-            "y": "2rem",
-            "blur": "4rem",
-            "spread": "0",
             "color": "{app.color.component.shadow.default}",
-            "type": "dropShadow"
+            "offsetX": "0px",
+            "offsetY": "2rem",
+            "blur": "4rem",
+            "spread": "0px"
           },
-          "$type": "boxShadow"
+          "$type": "shadow"
         },
         "high": {
           "$value": [
             {
-              "x": "0",
-              "y": "1rem",
-              "blur": "2rem",
-              "spread": "0",
               "color": "{app.color.component.shadow.strong}",
-              "type": "dropShadow"
+              "offsetX": "0px",
+              "offsetY": "1rem",
+              "blur": "2rem",
+              "spread": "0px"
             },
             {
-              "x": "0",
-              "y": "2rem",
-              "blur": "4rem",
-              "spread": "0",
               "color": "{app.color.component.shadow.strong}",
-              "type": "dropShadow"
+              "offsetX": "0px",
+              "offsetY": "2rem",
+              "blur": "4rem",
+              "spread": "0px"
             }
           ],
-          "$type": "boxShadow"
+          "$type": "shadow"
         }
       },
       "surface": {
         "default": {
           "$value": {
-            "x": "0",
-            "y": "6rem",
-            "blur": "6rem",
-            "spread": "0",
             "color": "{app.color.surface.shadow.default}",
-            "type": "dropShadow"
+            "offsetX": "0px",
+            "offsetY": "6rem",
+            "blur": "6rem",
+            "spread": "0px"
           },
-          "$type": "boxShadow"
+          "$type": "shadow"
+        }
+      },
+      "material": {
+        "alpha": {
+          "default": {
+            "$type": "shadow",
+            "$value": [
+              {
+                "color": "oklch(1 0 0 / 6%)",
+                "offsetX": "0px",
+                "offsetY": "1px",
+                "blur": "4px",
+                "spread": "0px",
+                "inset": true
+              },
+              {
+                "color": "oklch(1 0 0 / 4%)",
+                "offsetX": "0px",
+                "offsetY": "-1px",
+                "blur": "4px",
+                "spread": "0px",
+                "inset": true
+              }
+            ]
+          }
         }
       }
     },
@@ -1981,6 +1944,14 @@
       }
     },
     "dimension": {
+      "material": {
+        "alpha": {
+          "blur": {
+            "$value": "64px",
+            "$type": "dimension"
+          }
+        }
+      },
       "component": {
         "radius": {
           "round": {
