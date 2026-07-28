@@ -6,12 +6,12 @@
           "bg": {
             "default": {
               "$type": "color",
-              "$value": "oklch(0.17 0 0 / 84%)"
+              "$value": "oklch(0.985 0 0 / 8%)"
             },
             "gradient": {
               "stop-0": {
                 "$type": "color",
-                "$value": "oklch(0.985 0 0 / 8%)"
+                "$value": "oklch(0.985 0 0 / 12%)"
               },
               "stop-100": {
                 "$type": "color",
@@ -23,19 +23,19 @@
             "gradient": {
               "stop-0": {
                 "$type": "color",
-                "$value": "oklch(0.985 0 0 / 6%)"
+                "$value": "oklch(0.985 0 0 / 12%)"
               },
               "stop-33": {
                 "$type": "color",
-                "$value": "oklch(0.985 0 0 / 1%)"
+                "$value": "oklch(0.985 0 0 / 2%)"
               },
               "stop-66": {
                 "$type": "color",
-                "$value": "oklch(0.985 0 0 / 1%)"
+                "$value": "oklch(0.985 0 0 / 2%)"
               },
               "stop-100": {
                 "$type": "color",
-                "$value": "oklch(0.985 0 0 / 6%)"
+                "$value": "oklch(0.985 0 0 / 12%)"
               }
             }
           },
@@ -54,36 +54,16 @@
           "bg": {
             "default": {
               "$type": "color",
-              "$value": "oklch(0.17 0 0 / 84%)"
+              "$value": "oklch(0.985 0 0 / 8%)"
             },
             "gradient": {
               "stop-0": {
                 "$type": "color",
-                "$value": "oklch(0.985 0 0 / 8%)"
+                "$value": "oklch(0.985 0 0 / 12%)"
               },
               "stop-100": {
                 "$type": "color",
                 "$value": "oklch(0.985 0 0 / 0%)"
-              }
-            }
-          },
-          "border": {
-            "gradient": {
-              "stop-0": {
-                "$type": "color",
-                "$value": "oklch(0.985 0 0 / 6%)"
-              },
-              "stop-33": {
-                "$type": "color",
-                "$value": "oklch(0.985 0 0 / 1%)"
-              },
-              "stop-66": {
-                "$type": "color",
-                "$value": "oklch(0.985 0 0 / 1%)"
-              },
-              "stop-100": {
-                "$type": "color",
-                "$value": "oklch(0.985 0 0 / 6%)"
               }
             }
           },
@@ -100,14 +80,10 @@
         },
         "gamma": {
           "bg": {
-            "default": {
-              "$type": "color",
-              "$value": "oklch(0.17 0 0 / 84%)"
-            },
             "gradient": {
               "stop-0": {
                 "$type": "color",
-                "$value": "oklch(0.985 0 0 / 8%)"
+                "$value": "oklch(0.985 0 0 / 12%)"
               },
               "stop-100": {
                 "$type": "color",
@@ -119,19 +95,19 @@
             "gradient": {
               "stop-0": {
                 "$type": "color",
-                "$value": "oklch(0.985 0 0 / 6%)"
+                "$value": "oklch(0.985 0 0 / 12%)"
               },
               "stop-33": {
                 "$type": "color",
-                "$value": "oklch(0.985 0 0 / 1%)"
+                "$value": "oklch(0.985 0 0 / 2%)"
               },
               "stop-66": {
                 "$type": "color",
-                "$value": "oklch(0.985 0 0 / 1%)"
+                "$value": "oklch(0.985 0 0 / 2%)"
               },
               "stop-100": {
                 "$type": "color",
-                "$value": "oklch(0.985 0 0 / 6%)"
+                "$value": "oklch(0.985 0 0 / 12%)"
               }
             }
           },
@@ -144,6 +120,55 @@
               "$value": "oklch(0.96 0 0)",
               "$type": "color"
             }
+          }
+        }
+      }
+    },
+    "dimension": {
+      "material": {
+        "alpha": {
+          "blur": {
+            "$value": "192px",
+            "$type": "dimension"
+          }
+        },
+        "beta": {
+          "blur": {
+            "$value": "192px",
+            "$type": "dimension"
+          }
+        },
+        "gamma": {
+          "blur": {
+            "$value": "192px",
+            "$type": "dimension"
+          }
+        }
+      }
+    },
+    "boxShadow": {
+      "material": {
+        "gamma": {
+          "default": {
+            "$type": "shadow",
+            "$value": [
+              {
+                "color": "oklch(1 0 0 / 8%)",
+                "offsetX": "0px",
+                "offsetY": "1px",
+                "blur": "8px",
+                "spread": "0px",
+                "inset": true
+              },
+              {
+                "color": "oklch(1 0 0 / 8%)",
+                "offsetX": "0px",
+                "offsetY": "-1px",
+                "blur": "8px",
+                "spread": "0px",
+                "inset": true
+              }
+            ]
           }
         }
       }

@@ -1000,16 +1000,16 @@
           "bg": {
             "default": {
               "$type": "color",
-              "$value": "oklch(0.92 0 0 / 72%)"
+              "$value": "oklch(0.985 0 0 / 54%)"
             },
             "gradient": {
               "stop-0": {
                 "$type": "color",
-                "$value": "oklch(0.985 0 0 / 40%)"
+                "$value": "oklch(0.985 0 0 / 0%)"
               },
               "stop-100": {
                 "$type": "color",
-                "$value": "oklch(0.985 0 0 / 20%)"
+                "$value": "oklch(0.985 0 0 / 0%)"
               }
             }
           },
@@ -1017,19 +1017,19 @@
             "gradient": {
               "stop-0": {
                 "$type": "color",
-                "$value": "oklch(0.985 0 0 / 20%)"
+                "$value": "oklch(0.985 0 0 / 0%)"
               },
               "stop-33": {
                 "$type": "color",
-                "$value": "oklch(0.985 0 0 / 4%)"
+                "$value": "oklch(0.985 0 0 / 0%)"
               },
               "stop-66": {
                 "$type": "color",
-                "$value": "oklch(0.985 0 0 / 4%)"
+                "$value": "oklch(0.985 0 0 / 0%)"
               },
               "stop-100": {
                 "$type": "color",
-                "$value": "oklch(0.985 0 0 / 20%)"
+                "$value": "oklch(0.985 0 0 / 0%)"
               }
             }
           },
@@ -1048,36 +1048,16 @@
           "bg": {
             "default": {
               "$type": "color",
-              "$value": "oklch(0.92 0 0 / 72%)"
+              "$value": "oklch(0.985 0 0)"
             },
             "gradient": {
               "stop-0": {
                 "$type": "color",
-                "$value": "oklch(0.985 0 0 / 40%)"
+                "$value": "oklch(0.985 0 0 / 0%)"
               },
               "stop-100": {
                 "$type": "color",
-                "$value": "oklch(0.985 0 0 / 20%)"
-              }
-            }
-          },
-          "border": {
-            "gradient": {
-              "stop-0": {
-                "$type": "color",
-                "$value": "oklch(0.985 0 0 / 20%)"
-              },
-              "stop-33": {
-                "$type": "color",
-                "$value": "oklch(0.985 0 0 / 4%)"
-              },
-              "stop-66": {
-                "$type": "color",
-                "$value": "oklch(0.985 0 0 / 4%)"
-              },
-              "stop-100": {
-                "$type": "color",
-                "$value": "oklch(0.985 0 0 / 20%)"
+                "$value": "oklch(0.985 0 0 / 0%)"
               }
             }
           },
@@ -1094,18 +1074,14 @@
         },
         "gamma": {
           "bg": {
-            "default": {
-              "$type": "color",
-              "$value": "oklch(0.92 0 0 / 72%)"
-            },
             "gradient": {
               "stop-0": {
                 "$type": "color",
-                "$value": "oklch(0.985 0 0 / 40%)"
+                "$value": "oklch(0.985 0 0 / 32%)"
               },
               "stop-100": {
                 "$type": "color",
-                "$value": "oklch(0.985 0 0 / 20%)"
+                "$value": "oklch(0.985 0 0 / 0%)"
               }
             }
           },
@@ -1113,19 +1089,19 @@
             "gradient": {
               "stop-0": {
                 "$type": "color",
-                "$value": "oklch(0.985 0 0 / 20%)"
+                "$value": "oklch(0.985 0 0 / 18%)"
               },
               "stop-33": {
                 "$type": "color",
-                "$value": "oklch(0.985 0 0 / 4%)"
+                "$value": "oklch(0.985 0 0 / 3%)"
               },
               "stop-66": {
                 "$type": "color",
-                "$value": "oklch(0.985 0 0 / 4%)"
+                "$value": "oklch(0.985 0 0 / 3%)"
               },
               "stop-100": {
                 "$type": "color",
-                "$value": "oklch(0.985 0 0 / 20%)"
+                "$value": "oklch(0.985 0 0 / 18%)"
               }
             }
           },
