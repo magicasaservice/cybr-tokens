@@ -251,21 +251,13 @@
           }
         },
         "beta": {
-          "default": {
+          "active": {
             "$type": "shadow",
             "$value": [
               {
-                "color": "oklch(1 0 0 / 40%)",
+                "color": "oklch(1 0 0 / 28%)",
                 "offsetX": "0px",
-                "offsetY": "-1px",
-                "blur": "28px",
-                "spread": "0px",
-                "inset": true
-              },
-              {
-                "color": "oklch(0 0 0 / 0%)",
-                "offsetX": "0px",
-                "offsetY": "1px",
+                "offsetY": "0px",
                 "blur": "28px",
                 "spread": "0px",
                 "inset": true

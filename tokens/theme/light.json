@@ -560,13 +560,13 @@
             },
             "muted": {
               "default": {
-                "$value": "{config.color.palette.black.translucent.9}",
+                "$value": "{config.color.palette.black.translucent.10}",
                 "$type": "color"
               }
             },
             "subtle": {
               "default": {
-                "$value": "{config.color.palette.black.translucent.3}",
+                "$value": "{config.color.palette.black.translucent.4}",
                 "$type": "color"
               }
             },
