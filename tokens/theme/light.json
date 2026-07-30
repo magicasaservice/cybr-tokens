@@ -303,26 +303,6 @@
               }
             }
           },
-          "border": {
-            "gradient": {
-              "stop-0": {
-                "$type": "color",
-                "$value": "oklch(0.985 0 0 / 18%)"
-              },
-              "stop-33": {
-                "$type": "color",
-                "$value": "oklch(0.985 0 0 / 3%)"
-              },
-              "stop-66": {
-                "$type": "color",
-                "$value": "oklch(0.985 0 0 / 3%)"
-              },
-              "stop-100": {
-                "$type": "color",
-                "$value": "oklch(0.985 0 0 / 18%)"
-              }
-            }
-          },
           "fg": {
             "default": {
               "$value": "oklch(0.11 0 0)",
@@ -373,26 +353,6 @@
               }
             }
           },
-          "border": {
-            "gradient": {
-              "stop-0": {
-                "$type": "color",
-                "$value": "oklch(0.985 0 0 / 18%)"
-              },
-              "stop-33": {
-                "$type": "color",
-                "$value": "oklch(0.985 0 0 / 3%)"
-              },
-              "stop-66": {
-                "$type": "color",
-                "$value": "oklch(0.985 0 0 / 3%)"
-              },
-              "stop-100": {
-                "$type": "color",
-                "$value": "oklch(0.985 0 0 / 18%)"
-              }
-            }
-          },
           "fg": {
             "default": {
               "$value": "oklch(0.11 0 0)",
@@ -416,26 +376,6 @@
                 "$value": "oklch(0.985 0 0 / 0%)"
               }
             }
-          },
-          "border": {
-            "gradient": {
-              "stop-0": {
-                "$type": "color",
-                "$value": "oklch(0.985 0 0 / 18%)"
-              },
-              "stop-33": {
-                "$type": "color",
-                "$value": "oklch(0.985 0 0 / 3%)"
-              },
-              "stop-66": {
-                "$type": "color",
-                "$value": "oklch(0.985 0 0 / 3%)"
-              },
-              "stop-100": {
-                "$type": "color",
-                "$value": "oklch(0.985 0 0 / 18%)"
-              }
-            }
           }
         },
         "epsilon": {
@@ -451,26 +391,6 @@
             "active": {
               "$type": "color",
               "$value": "oklch(0.985 0 0 / 8%)"
-            }
-          },
-          "border": {
-            "gradient": {
-              "stop-0": {
-                "$type": "color",
-                "$value": "oklch(0.145 0 0 / 10%)"
-              },
-              "stop-33": {
-                "$type": "color",
-                "$value": "oklch(0.145 0 0 / 3%)"
-              },
-              "stop-66": {
-                "$type": "color",
-                "$value": "oklch(0.145 0 0 / 3%)"
-              },
-              "stop-100": {
-                "$type": "color",
-                "$value": "oklch(0.145 0 0 / 10%)"
-              }
             }
           }
         }
