@@ -222,34 +222,6 @@
     },
     "boxShadow": {
       "material": {
-        "alpha": {
-          "default": {
-            "$type": "shadow",
-            "$value": [
-              {
-                "color": "oklch(0 0 0 / 4%)",
-                "offsetX": "0px",
-                "offsetY": "16px",
-                "blur": "28px",
-                "spread": "0px"
-              },
-              {
-                "color": "oklch(0 0 0 / 16%)",
-                "offsetX": "0px",
-                "offsetY": "32px",
-                "blur": "64px",
-                "spread": "0px"
-              },
-              {
-                "color": "oklch(0 0 0 / 16%)",
-                "offsetX": "0px",
-                "offsetY": "64px",
-                "blur": "128px",
-                "spread": "0px"
-              }
-            ]
-          }
-        },
         "beta": {
           "active": {
             "$type": "shadow",
