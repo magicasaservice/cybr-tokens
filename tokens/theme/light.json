@@ -1000,7 +1000,7 @@
           "bg": {
             "default": {
               "$type": "color",
-              "$value": "oklch(0.985 0 0 / 54%)"
+              "$value": "oklch(0.985 0 0 / 64%)"
             },
             "gradient": {
               "stop-0": {
@@ -1017,19 +1017,19 @@
             "gradient": {
               "stop-0": {
                 "$type": "color",
-                "$value": "oklch(0.985 0 0 / 0%)"
+                "$value": "oklch(0.985 0 0 / 18%)"
               },
               "stop-33": {
                 "$type": "color",
-                "$value": "oklch(0.985 0 0 / 0%)"
+                "$value": "oklch(0.985 0 0 / 3%)"
               },
               "stop-66": {
                 "$type": "color",
-                "$value": "oklch(0.985 0 0 / 0%)"
+                "$value": "oklch(0.985 0 0 / 3%)"
               },
               "stop-100": {
                 "$type": "color",
-                "$value": "oklch(0.985 0 0 / 0%)"
+                "$value": "oklch(0.985 0 0 / 18%)"
               }
             }
           },
@@ -1048,17 +1048,15 @@
           "bg": {
             "default": {
               "$type": "color",
-              "$value": "oklch(0.985 0 0)"
+              "$value": "{app.color.component.primary.bg.subtle.default}"
             },
-            "gradient": {
-              "stop-0": {
-                "$type": "color",
-                "$value": "oklch(0.985 0 0 / 0%)"
-              },
-              "stop-100": {
-                "$type": "color",
-                "$value": "oklch(0.985 0 0 / 0%)"
-              }
+            "hover": {
+              "$type": "color",
+              "$value": "{app.color.component.primary.bg.subtle.hover}"
+            },
+            "active": {
+              "$type": "color",
+              "$value": "{app.color.component.primary.bg.subtle.active}"
             }
           },
           "fg": {
@@ -1113,6 +1111,76 @@
             "muted": {
               "$value": "oklch(0.11 0 0)",
               "$type": "color"
+            }
+          }
+        },
+        "delta": {
+          "bg": {
+            "gradient": {
+              "stop-0": {
+                "$type": "color",
+                "$value": "oklch(0.985 0 0 / 32%)"
+              },
+              "stop-100": {
+                "$type": "color",
+                "$value": "oklch(0.985 0 0 / 0%)"
+              }
+            }
+          },
+          "border": {
+            "gradient": {
+              "stop-0": {
+                "$type": "color",
+                "$value": "oklch(0.985 0 0 / 18%)"
+              },
+              "stop-33": {
+                "$type": "color",
+                "$value": "oklch(0.985 0 0 / 3%)"
+              },
+              "stop-66": {
+                "$type": "color",
+                "$value": "oklch(0.985 0 0 / 3%)"
+              },
+              "stop-100": {
+                "$type": "color",
+                "$value": "oklch(0.985 0 0 / 18%)"
+              }
+            }
+          }
+        },
+        "epsilon": {
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "oklch(0.985 0 0 / 0%)"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "oklch(0.985 0 0 / 4%)"
+            },
+            "active": {
+              "$type": "color",
+              "$value": "oklch(0.985 0 0 / 8%)"
+            }
+          },
+          "border": {
+            "gradient": {
+              "stop-0": {
+                "$type": "color",
+                "$value": "oklch(0.145 0 0 / 10%)"
+              },
+              "stop-33": {
+                "$type": "color",
+                "$value": "oklch(0.145 0 0 / 3%)"
+              },
+              "stop-66": {
+                "$type": "color",
+                "$value": "oklch(0.145 0 0 / 3%)"
+              },
+              "stop-100": {
+                "$type": "color",
+                "$value": "oklch(0.145 0 0 / 10%)"
+              }
             }
           }
         }
@@ -1866,6 +1934,59 @@
                 }
               }
             }
+          }
+        }
+      }
+    },
+    "boxShadow": {
+      "material": {
+        "gamma": {
+          "default": {
+            "$type": "shadow",
+            "$value": [
+              {
+                "color": "oklch(1 0 0 / 0%)",
+                "offsetX": "0px",
+                "offsetY": "-1px",
+                "blur": "0px",
+                "spread": "0px",
+                "inset": true
+              },
+              {
+                "color": "oklch(0 0 0 / 8%)",
+                "offsetX": "0px",
+                "offsetY": "1px",
+                "blur": "0px",
+                "spread": "0px",
+                "inset": true
+              }
+            ]
+          },
+          "drop": {
+            "$type": "shadow",
+            "$value": [
+              {
+                "color": "oklch(0 0 0 / 8%)",
+                "offsetX": "0px",
+                "offsetY": "16px",
+                "blur": "28px",
+                "spread": "0px"
+              },
+              {
+                "color": "oklch(0 0 0 / 8%)",
+                "offsetX": "0px",
+                "offsetY": "16px",
+                "blur": "48px",
+                "spread": "0px"
+              },
+              {
+                "color": "oklch(0 0 0 / 8%)",
+                "offsetX": "0px",
+                "offsetY": "32px",
+                "blur": "96px",
+                "spread": "0px"
+              }
+            ]
           }
         }
       }
