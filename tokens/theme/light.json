@@ -1176,6 +1176,27 @@
             "$type": "shadow",
             "$value": [
               {
+                "color": "oklch(0 0 0 / 11%)",
+                "offsetX": "0px",
+                "offsetY": "14px",
+                "blur": "12px",
+                "spread": "0px"
+              },
+              {
+                "color": "oklch(0 0 0 / 13%)",
+                "offsetX": "0px",
+                "offsetY": "8px",
+                "blur": "12px",
+                "spread": "0px"
+              },
+              {
+                "color": "oklch(0 0 0 / 7%)",
+                "offsetX": "0px",
+                "offsetY": "4px",
+                "blur": "6px",
+                "spread": "0px"
+              },
+              {
                 "color": "oklch(0 0 0 / 8%)",
                 "offsetX": "0px",
                 "offsetY": "16px",
