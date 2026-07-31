@@ -412,6 +412,21 @@
               "$type": "color",
               "$value": "oklch(0.985 0 0 / 8%)"
             }
+          },
+          "border": {
+            "default": {
+              "$type": "gradient",
+              "$extensions": {
+                "type": "linear",
+                "angle": "165deg"
+              },
+              "$value": [
+                { "color": "oklch(0.145 0 0 / 10%)", "position": 0 },
+                { "color": "oklch(0.145 0 0 / 3%)", "position": 0.33 },
+                { "color": "oklch(0.145 0 0 / 3%)", "position": 0.66 },
+                { "color": "oklch(0.145 0 0 / 10%)", "position": 1 }
+              ]
+            }
           }
         }
       },
