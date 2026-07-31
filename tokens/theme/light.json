@@ -318,15 +318,23 @@
           "bg": {
             "default": {
               "$type": "color",
-              "$value": "{app.color.component.primary.bg.subtle.default}"
+              "$value": "oklch(0.985 0 0 / 64%)"
             },
-            "hover": {
-              "$type": "color",
-              "$value": "{app.color.component.primary.bg.subtle.hover}"
-            },
-            "active": {
-              "$type": "color",
-              "$value": "{app.color.component.primary.bg.subtle.active}"
+            "gradient": {
+              "stop-0": {
+                "$type": "color",
+                "$value": "oklch(0.985 0 0 / 0%)"
+              },
+              "stop-100": {
+                "$type": "color",
+                "$value": "oklch(0.985 0 0 / 0%)"
+              }
+            }
+          },
+          "border": {
+            "default": {
+              "$type": "gradient",
+              "$value": "none"
             }
           },
           "fg": {
@@ -366,15 +374,27 @@
         },
         "delta": {
           "bg": {
-            "gradient": {
-              "stop-0": {
-                "$type": "color",
-                "$value": "oklch(0.985 0 0 / 32%)"
-              },
-              "stop-100": {
-                "$type": "color",
-                "$value": "oklch(0.985 0 0 / 0%)"
-              }
+            "default": {
+              "$type": "color",
+              "$value": "{app.color.component.primary.bg.subtle.default}"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "{app.color.component.primary.bg.subtle.hover}"
+            },
+            "active": {
+              "$type": "color",
+              "$value": "{app.color.component.primary.bg.subtle.active}"
+            }
+          },
+          "fg": {
+            "default": {
+              "$value": "oklch(0.11 0 0)",
+              "$type": "color"
+            },
+            "muted": {
+              "$value": "oklch(0.11 0 0)",
+              "$type": "color"
             }
           }
         },

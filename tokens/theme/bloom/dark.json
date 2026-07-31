@@ -36,13 +36,42 @@
               "$type": "color",
               "$value": "oklch(0.985 0 0 / 8%)"
             },
-            "hover": {
-              "$type": "color",
-              "$value": "oklch(0.985 0 0 / 16%)"
-            },
-            "active": {
-              "$type": "color",
-              "$value": "oklch(0.985 0 0 / 24%)"
+            "gradient": {
+              "stop-0": {
+                "$type": "color",
+                "$value": "oklch(0.985 0 0 / 12%)"
+              },
+              "stop-100": {
+                "$type": "color",
+                "$value": "oklch(0.985 0 0 / 0%)"
+              }
+            }
+          },
+          "border": {
+            "default": {
+              "$type": "gradient",
+              "$extensions": {
+                "type": "linear",
+                "angle": "165deg"
+              },
+              "$value": [
+                {
+                  "color": "oklch(1 0 0 / 10%)",
+                  "position": 0
+                },
+                {
+                  "color": "oklch(1 0 0 / 4%)",
+                  "position": 0.33
+                },
+                {
+                  "color": "oklch(1 0 0 / 4%)",
+                  "position": 0.66
+                },
+                {
+                  "color": "oklch(1 0 0 / 6%)",
+                  "position": 1
+                }
+              ]
             }
           },
           "fg": {
@@ -82,15 +111,27 @@
         },
         "delta": {
           "bg": {
-            "gradient": {
-              "stop-0": {
-                "$type": "color",
-                "$value": "oklch(0.985 0 0 / 12%)"
-              },
-              "stop-100": {
-                "$type": "color",
-                "$value": "oklch(0.985 0 0 / 0%)"
-              }
+            "default": {
+              "$type": "color",
+              "$value": "oklch(0.985 0 0 / 8%)"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "oklch(0.985 0 0 / 16%)"
+            },
+            "active": {
+              "$type": "color",
+              "$value": "oklch(0.985 0 0 / 24%)"
+            }
+          },
+          "fg": {
+            "default": {
+              "$value": "oklch(0.96 0 0)",
+              "$type": "color"
+            },
+            "muted": {
+              "$value": "oklch(0.96 0 0)",
+              "$type": "color"
             }
           }
         },
@@ -142,21 +183,6 @@
     },
     "boxShadow": {
       "material": {
-        "beta": {
-          "active": {
-            "$type": "shadow",
-            "$value": [
-              {
-                "color": "oklch(1 0 0 / 20%)",
-                "offsetX": "0px",
-                "offsetY": "0px",
-                "blur": "28px",
-                "spread": "0px",
-                "inset": true
-              }
-            ]
-          }
-        },
         "gamma": {
           "default": {
             "$type": "shadow",
@@ -207,22 +233,16 @@
           }
         },
         "delta": {
-          "default": {
+          "active": {
             "$type": "shadow",
             "$value": [
               {
-                "color": "oklch(0 0 0 / 4%)",
+                "color": "oklch(1 0 0 / 20%)",
                 "offsetX": "0px",
-                "offsetY": "48px",
-                "blur": "64px",
-                "spread": "0px"
-              },
-              {
-                "color": "oklch(0 0 0 / 8%)",
-                "offsetX": "0px",
-                "offsetY": "32px",
-                "blur": "128px",
-                "spread": "0px"
+                "offsetY": "0px",
+                "blur": "28px",
+                "spread": "0px",
+                "inset": true
               }
             ]
           }
