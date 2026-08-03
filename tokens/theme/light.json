@@ -319,11 +319,11 @@
             "gradient": {
               "stop-0": {
                 "$type": "color",
-                "$value": "oklch(0.985 0 0 / 32%)"
+                "$value": "oklch(0.1149 0 0 / 0%)"
               },
               "stop-100": {
                 "$type": "color",
-                "$value": "oklch(0.985 0 0 / 0%)"
+                "$value": "oklch(0.1149 0 0 / 10%)"
               }
             }
           },
@@ -332,13 +332,13 @@
               "$type": "gradient",
               "$extensions": {
                 "type": "linear",
-                "angle": "165deg"
+                "angle": "60deg"
               },
               "$value": [
-                { "color": "oklch(1 0 0 / 18%)", "position": 0 },
-                { "color": "oklch(1 0 0 / 3%)", "position": 0.33 },
-                { "color": "oklch(1 0 0 / 3%)", "position": 0.66 },
-                { "color": "oklch(1 0 0 / 18%)", "position": 1 }
+                { "color": "oklch(1 0 0 / 24%)", "position": 0 },
+                { "color": "oklch(1 0 0 / 4%)", "position": 0.33 },
+                { "color": "oklch(1 0 0 / 4%)", "position": 0.66 },
+                { "color": "oklch(1 0 0 / 24%)", "position": 1 }
               ]
             }
           },
