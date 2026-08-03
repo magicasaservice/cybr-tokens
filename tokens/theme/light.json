@@ -1201,27 +1201,6 @@
     "boxShadow": {
       "material": {
         "gamma": {
-          "default": {
-            "$type": "shadow",
-            "$value": [
-              {
-                "color": "oklch(1 0 0 / 0%)",
-                "offsetX": "0px",
-                "offsetY": "-1px",
-                "blur": "0px",
-                "spread": "0px",
-                "inset": true
-              },
-              {
-                "color": "oklch(0 0 0 / 8%)",
-                "offsetX": "0px",
-                "offsetY": "1px",
-                "blur": "0px",
-                "spread": "0px",
-                "inset": true
-              }
-            ]
-          },
           "drop": {
             "$type": "shadow",
             "$value": [
