@@ -32,61 +32,6 @@
         },
         "beta": {
           "bg": {
-            "default": {
-              "$type": "color",
-              "$value": "oklch(0.985 0 0 / 12%)"
-            },
-            "gradient": {
-              "stop-0": {
-                "$type": "color",
-                "$value": "oklch(0.985 0 0 / 98%)"
-              },
-              "stop-100": {
-                "$type": "color",
-                "$value": "oklch(0.985 0 0 / 24%)"
-              }
-            }
-          },
-          "border": {
-            "default": {
-              "$type": "gradient",
-              "$extensions": {
-                "type": "linear",
-                "angle": "165deg"
-              },
-              "$value": [
-                {
-                  "color": "oklch(1 0 0 / 10%)",
-                  "position": 0
-                },
-                {
-                  "color": "oklch(1 0 0 / 4%)",
-                  "position": 0.33
-                },
-                {
-                  "color": "oklch(1 0 0 / 4%)",
-                  "position": 0.66
-                },
-                {
-                  "color": "oklch(1 0 0 / 6%)",
-                  "position": 1
-                }
-              ]
-            }
-          },
-          "fg": {
-            "default": {
-              "$value": "oklch(0.11 0 0)",
-              "$type": "color"
-            },
-            "muted": {
-              "$value": "oklch(0.96 0 0)",
-              "$type": "color"
-            }
-          }
-        },
-        "gamma": {
-          "bg": {
             "gradient": {
               "stop-0": {
                 "$type": "color",
@@ -109,7 +54,7 @@
             }
           }
         },
-        "delta": {
+        "gamma": {
           "bg": {
             "default": {
               "$type": "color",
@@ -135,7 +80,7 @@
             }
           }
         },
-        "epsilon": {
+        "delta": {
           "bg": {
             "default": {
               "$type": "color",
@@ -172,18 +117,12 @@
             "$value": "128px",
             "$type": "dimension"
           }
-        },
-        "delta": {
-          "blur": {
-            "$value": "128px",
-            "$type": "dimension"
-          }
         }
       }
     },
     "boxShadow": {
       "material": {
-        "gamma": {
+        "beta": {
           "default": {
             "$type": "shadow",
             "$value": [
@@ -232,7 +171,7 @@
             ]
           }
         },
-        "delta": {
+        "gamma": {
           "active": {
             "$type": "shadow",
             "$value": [

@@ -140,40 +140,6 @@
         },
         "beta": {
           "bg": {
-            "default": {
-              "$type": "color",
-              "$value": "oklch(0.1684 0 0 / 90%)"
-            },
-            "gradient": {
-              "stop-0": {
-                "$type": "color",
-                "$value": "oklch(0.985 0 0 / 2%)"
-              },
-              "stop-100": {
-                "$type": "color",
-                "$value": "oklch(0.985 0 0 / 0%)"
-              }
-            }
-          },
-          "border": {
-            "default": {
-              "$type": "gradient",
-              "$value": "none"
-            }
-          },
-          "fg": {
-            "default": {
-              "$value": "oklch(0.96 0 0)",
-              "$type": "color"
-            },
-            "muted": {
-              "$value": "oklch(0.96 0 0)",
-              "$type": "color"
-            }
-          }
-        },
-        "gamma": {
-          "bg": {
             "gradient": {
               "stop-0": {
                 "$type": "color",
@@ -211,7 +177,7 @@
             }
           }
         },
-        "delta": {
+        "gamma": {
           "bg": {
             "default": {
               "$type": "color",
@@ -237,7 +203,7 @@
             }
           }
         },
-        "epsilon": {
+        "delta": {
           "bg": {
             "default": {
               "$type": "color",
@@ -1438,34 +1404,6 @@
             "$type": "shadow",
             "$value": [
               {
-                "color": "oklch(0 0 0 / 16%)",
-                "offsetX": "0px",
-                "offsetY": "32px",
-                "blur": "128px",
-                "spread": "0px"
-              },
-              {
-                "color": "oklch(0 0 0 / 16%)",
-                "offsetX": "0px",
-                "offsetY": "16px",
-                "blur": "48px",
-                "spread": "0px"
-              },
-              {
-                "color": "oklch(0 0 0 / 4%)",
-                "offsetX": "0px",
-                "offsetY": "48px",
-                "blur": "48px",
-                "spread": "0px"
-              }
-            ]
-          }
-        },
-        "gamma": {
-          "default": {
-            "$type": "shadow",
-            "$value": [
-              {
                 "color": "oklch(1 0 0 / 0%)",
                 "offsetX": "0px",
                 "offsetY": "1px",
@@ -1510,7 +1448,7 @@
             ]
           }
         },
-        "delta": {
+        "gamma": {
           "active": {
             "$type": "shadow",
             "$value": "none"
@@ -2197,12 +2135,6 @@
           }
         },
         "gamma": {
-          "blur": {
-            "$value": "96px",
-            "$type": "dimension"
-          }
-        },
-        "delta": {
           "blur": {
             "$value": "96px",
             "$type": "dimension"

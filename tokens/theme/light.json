@@ -316,40 +316,6 @@
         },
         "beta": {
           "bg": {
-            "default": {
-              "$type": "color",
-              "$value": "oklch(0.985 0 0 / 64%)"
-            },
-            "gradient": {
-              "stop-0": {
-                "$type": "color",
-                "$value": "oklch(0.985 0 0 / 0%)"
-              },
-              "stop-100": {
-                "$type": "color",
-                "$value": "oklch(0.985 0 0 / 0%)"
-              }
-            }
-          },
-          "border": {
-            "default": {
-              "$type": "gradient",
-              "$value": "none"
-            }
-          },
-          "fg": {
-            "default": {
-              "$value": "oklch(0.11 0 0)",
-              "$type": "color"
-            },
-            "muted": {
-              "$value": "oklch(0.11 0 0)",
-              "$type": "color"
-            }
-          }
-        },
-        "gamma": {
-          "bg": {
             "gradient": {
               "stop-0": {
                 "$type": "color",
@@ -387,7 +353,7 @@
             }
           }
         },
-        "delta": {
+        "gamma": {
           "bg": {
             "default": {
               "$type": "color",
@@ -413,7 +379,7 @@
             }
           }
         },
-        "epsilon": {
+        "delta": {
           "bg": {
             "default": {
               "$type": "color",
@@ -1200,7 +1166,7 @@
     },
     "boxShadow": {
       "material": {
-        "gamma": {
+        "beta": {
           "drop": {
             "$type": "shadow",
             "$value": [
