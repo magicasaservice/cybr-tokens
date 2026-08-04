@@ -28,15 +28,15 @@
               },
               "$value": [
                 {
-                  "color": "oklch(1 0 0 / 10%)",
+                  "color": "oklch(1 0 0 / 6%)",
                   "position": 0
                 },
                 {
-                  "color": "oklch(1 0 0 / 4%)",
+                  "color": "oklch(1 0 0 / 2%)",
                   "position": 0.33
                 },
                 {
-                  "color": "oklch(1 0 0 / 4%)",
+                  "color": "oklch(1 0 0 / 2%)",
                   "position": 0.66
                 },
                 {
