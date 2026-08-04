@@ -332,7 +332,7 @@
               "$type": "gradient",
               "$extensions": {
                 "type": "linear",
-                "angle": "60deg"
+                "angle": "165deg"
               },
               "$value": [
                 { "color": "oklch(1 0 0 / 24%)", "position": 0 },
