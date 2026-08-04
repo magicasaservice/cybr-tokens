@@ -1457,21 +1457,21 @@
             "$type": "shadow",
             "$value": [
               {
-                "color": "oklch(0 0 0 / 16%)",
+                "color": "oklch(0 0 0 / 0%)",
                 "offsetX": "0px",
                 "offsetY": "4px",
                 "blur": "8px",
                 "spread": "0px"
               },
               {
-                "color": "oklch(0 0 0 / 16%)",
+                "color": "oklch(0 0 0 / 0%)",
                 "offsetX": "0px",
                 "offsetY": "8px",
                 "blur": "16px",
                 "spread": "0px"
               },
               {
-                "color": "oklch(0 0 0 / 16%)",
+                "color": "oklch(0 0 0 / 0%)",
                 "offsetX": "0px",
                 "offsetY": "16px",
                 "blur": "32px",
