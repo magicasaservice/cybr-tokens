@@ -233,6 +233,14 @@
               ]
             }
           }
+        },
+        "epsilon": {
+          "border": {
+            "default": {
+              "$type": "gradient",
+              "$value": "none"
+            }
+          }
         }
       },
       "component": {
