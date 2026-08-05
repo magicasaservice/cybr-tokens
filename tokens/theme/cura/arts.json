@@ -139,7 +139,7 @@
     "color": {
       "surface": {
         "bg": {
-          "base": {
+          "high": {
             "$value": "{config.color.palette.white.solid}",
             "$type": "color"
           }

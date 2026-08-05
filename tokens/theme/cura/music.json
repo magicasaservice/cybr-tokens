@@ -147,7 +147,7 @@
     "color": {
       "surface": {
         "bg": {
-          "base": {
+          "high": {
             "$value": "oklch(0.23 0 0)",
             "$type": "color"
           }
