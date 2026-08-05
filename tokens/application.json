@@ -17,7 +17,7 @@
           },
           "higher": {
             "$type": "color",
-            "$value": "oklch(0.1 0 0)"
+            "$value": "oklch(0.18 0 0)"
           },
           "dimmer": {
             "$value": "{config.color.palette.black.solid}",
