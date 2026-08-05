@@ -258,10 +258,8 @@
             "$type": "color"
           },
           "inverted": {
-            "default": {
-              "$value": "{config.color.palette.white.solid}",
-              "$type": "color"
-            }
+            "$value": "{config.color.palette.white.solid}",
+            "$type": "color"
           },
           "link": {
             "default": {
