@@ -9,7 +9,7 @@
           },
           "base": {
             "$type": "color",
-            "$value": "oklch(0.7058 0 0)"
+            "$value": "oklch(0.145 0 0)"
           },
           "high": {
             "$type": "color",

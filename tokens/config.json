@@ -255,15 +255,15 @@
               "$type": "color"
             },
             "10": {
-              "$value": "oklch(0.24 0 0)",
+              "$value": "oklch(0.25 0 0)",
               "$type": "color"
             },
             "11": {
-              "$value": "oklch(0.19 0 0)",
+              "$value": "oklch(0.23 0 0)",
               "$type": "color"
             },
             "12": {
-              "$value": "oklch(0.15 0 0)",
+              "$value": "oklch(0.20 0 0)",
               "$type": "color"
             }
           },
