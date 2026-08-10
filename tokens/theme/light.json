@@ -219,11 +219,11 @@
         "bg": {
           "low": {
             "$type": "color",
-            "$value": "oklch(0.94 0 0)"
+            "$value": "oklch(0.89 0 0)"
           },
           "base": {
             "$type": "color",
-            "$value": "{config.color.palette.white.solid}"
+            "$value": "oklch(0.931 0 0)"
           },
           "high": {
             "$type": "color",
@@ -231,7 +231,7 @@
           },
           "higher": {
             "$type": "color",
-            "$value": "oklch(0.94 0 0)"
+            "$value": "{config.color.palette.white.solid}"
           },
           "dimmer": {
             "$type": "color",
