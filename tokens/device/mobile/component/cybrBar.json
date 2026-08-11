@@ -1,0 +1,12 @@
+{
+  "component": {
+    "cybrBar": {
+      "fontSize": {
+        "lg": {
+          "$value": "{app.fontSize.component.text.lg}",
+          "$type": "fontSize"
+        }
+      }
+    }
+  }
+}

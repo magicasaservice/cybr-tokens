@@ -55,7 +55,7 @@
           "$type": "fontSize"
         },
         "lg": {
-          "$value": "{app.fontSize.component.text.lg}",
+          "$value": "{app.fontSize.component.text.md}",
           "$type": "fontSize"
         }
       }

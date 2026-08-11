@@ -12,7 +12,7 @@
             "$type": "dimension"
           },
           "lg": {
-            "$value": "1rem",
+            "$value": "0.875rem",
             "$type": "dimension"
           }
         }
