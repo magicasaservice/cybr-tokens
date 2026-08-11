@@ -679,6 +679,20 @@
             }
           },
           "fg": {
+            "solid": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.lime.solid.4}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.lime.solid.5}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.lime.solid.6}"
+              }
+            },
             "muted": {
               "default": {
                 "$type": "color",
