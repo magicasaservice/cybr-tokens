@@ -400,11 +400,11 @@
             },
             "hover": {
               "$type": "color",
-              "$value": "oklch(0.145 0 0 / 4%)"
+              "$value": "oklch(0.145 0 0 / 2%)"
             },
             "active": {
               "$type": "color",
-              "$value": "oklch(0.145 0 0 / 8%)"
+              "$value": "oklch(0.145 0 0 / 4%)"
             }
           },
           "border": {
