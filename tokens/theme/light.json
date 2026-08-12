@@ -682,15 +682,15 @@
             "solid": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.lime.solid.4}"
+                "$value": "{config.color.palette.lime.solid.10}"
               },
               "hover": {
                 "$type": "color",
-                "$value": "{config.color.palette.lime.solid.5}"
+                "$value": "{config.color.palette.lime.solid.11}"
               },
               "active": {
                 "$type": "color",
-                "$value": "{config.color.palette.lime.solid.6}"
+                "$value": "{config.color.palette.lime.solid.12}"
               }
             },
             "muted": {
