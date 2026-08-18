@@ -13,11 +13,11 @@
           },
           "high": {
             "$type": "color",
-            "$value": "{config.color.palette.neutral.solid.12}"
+            "$value": "{config.color.palette.neutral.solid.15}"
           },
           "higher": {
             "$type": "color",
-            "$value": "{config.color.palette.neutral.solid.10}"
+            "$value": "{config.color.palette.neutral.solid.13}"
           },
           "dimmer": {
             "$value": "{config.color.palette.black.solid}",
@@ -51,7 +51,7 @@
             "$type": "color"
           },
           "inverted": {
-            "$value": "{config.color.palette.neutral.solid.12}",
+            "$value": "{config.color.palette.neutral.solid.15}",
             "$type": "color"
           },
           "link": {
@@ -120,10 +120,22 @@
                 "angle": "165deg"
               },
               "$value": [
-                { "color": "oklch(1 0 0 / 2%)", "position": 0 },
-                { "color": "oklch(1 0 0 / 1%)", "position": 0.33 },
-                { "color": "oklch(1 0 0 / 1%)", "position": 0.66 },
-                { "color": "oklch(1 0 0 / 2%)", "position": 1 }
+                {
+                  "color": "oklch(1 0 0 / 2%)",
+                  "position": 0
+                },
+                {
+                  "color": "oklch(1 0 0 / 1%)",
+                  "position": 0.33
+                },
+                {
+                  "color": "oklch(1 0 0 / 1%)",
+                  "position": 0.66
+                },
+                {
+                  "color": "oklch(1 0 0 / 2%)",
+                  "position": 1
+                }
               ]
             }
           },
@@ -159,10 +171,22 @@
                 "angle": "165deg"
               },
               "$value": [
-                { "color": "oklch(1 0 0 / 4%)", "position": 0 },
-                { "color": "oklch(1 0 0 / 1%)", "position": 0.33 },
-                { "color": "oklch(1 0 0 / 1%)", "position": 0.66 },
-                { "color": "oklch(1 0 0 / 4%)", "position": 1 }
+                {
+                  "color": "oklch(1 0 0 / 4%)",
+                  "position": 0
+                },
+                {
+                  "color": "oklch(1 0 0 / 1%)",
+                  "position": 0.33
+                },
+                {
+                  "color": "oklch(1 0 0 / 1%)",
+                  "position": 0.66
+                },
+                {
+                  "color": "oklch(1 0 0 / 4%)",
+                  "position": 1
+                }
               ]
             }
           },
@@ -226,10 +250,22 @@
                 "angle": "165deg"
               },
               "$value": [
-                { "color": "oklch(0.985 0 0 / 12%)", "position": 0 },
-                { "color": "oklch(0.985 0 0 / 2%)", "position": 0.33 },
-                { "color": "oklch(0.985 0 0 / 2%)", "position": 0.66 },
-                { "color": "oklch(0.985 0 0 / 12%)", "position": 1 }
+                {
+                  "color": "oklch(0.985 0 0 / 12%)",
+                  "position": 0
+                },
+                {
+                  "color": "oklch(0.985 0 0 / 2%)",
+                  "position": 0.33
+                },
+                {
+                  "color": "oklch(0.985 0 0 / 2%)",
+                  "position": 0.66
+                },
+                {
+                  "color": "oklch(0.985 0 0 / 12%)",
+                  "position": 1
+                }
               ]
             }
           }
@@ -247,10 +283,22 @@
                 "angle": "165deg"
               },
               "$value": [
-                { "color": "oklch(1 0 0 / 10%)", "position": 0 },
-                { "color": "oklch(1 0 0 / 4%)", "position": 0.33 },
-                { "color": "oklch(1 0 0 / 4%)", "position": 0.66 },
-                { "color": "oklch(1 0 0 / 6%)", "position": 1 }
+                {
+                  "color": "oklch(1 0 0 / 10%)",
+                  "position": 0
+                },
+                {
+                  "color": "oklch(1 0 0 / 4%)",
+                  "position": 0.33
+                },
+                {
+                  "color": "oklch(1 0 0 / 4%)",
+                  "position": 0.66
+                },
+                {
+                  "color": "oklch(1 0 0 / 6%)",
+                  "position": 1
+                }
               ]
             }
           }
@@ -736,7 +784,7 @@
             "onSolid": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.white.solid}"
+                "$value": "{config.color.palette.black.solid}"
               }
             },
             "onSubtle": {
