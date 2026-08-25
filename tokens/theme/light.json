@@ -551,7 +551,7 @@
             },
             "subtle": {
               "default": {
-                "$value": "{config.color.palette.black.translucent.6}",
+                "$value": "{config.color.palette.black.translucent.4}",
                 "$type": "color"
               }
             },
