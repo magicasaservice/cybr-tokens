@@ -646,7 +646,7 @@
             "subtle": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.neutral.translucent.3}"
+                "$value": "{config.color.palette.neutral.translucent.4}"
               }
             },
             "onSolid": {
