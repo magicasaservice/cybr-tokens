@@ -1,0 +1,176 @@
+{
+  "app": {
+    "fontFamily": {
+      "surface": {
+        "display": {
+          "$value": "Brick",
+          "$type": "fontFamily"
+        },
+        "title": {
+          "$value": "Brick",
+          "$type": "fontFamily"
+        },
+        "callout": {
+          "$value": "Brick",
+          "$type": "fontFamily"
+        },
+        "subtitle": {
+          "$value": "Brick",
+          "$type": "fontFamily"
+        },
+        "body": {
+          "$value": "Georgia",
+          "$type": "fontFamily"
+        },
+        "caption": {
+          "$value": "Georgia",
+          "$type": "fontFamily"
+        },
+        "footnote": {
+          "$value": "Georgia",
+          "$type": "fontFamily"
+        },
+        "code": {
+          "$value": "Index",
+          "$type": "fontFamily"
+        }
+      }
+    },
+    "fontSize": {
+      "surface": {
+        "display": {
+          "sm": {
+            "$value": "2.25rem",
+            "$type": "fontSizes"
+          },
+          "md": {
+            "$value": "2.75rem",
+            "$type": "fontSizes"
+          },
+          "lg": {
+            "$value": "3.25rem",
+            "$type": "fontSizes"
+          },
+          "xl": {
+            "$value": "3.75rem",
+            "$type": "fontSizes"
+          }
+        },
+        "title": {
+          "sm": {
+            "$value": "1.6875rem",
+            "$type": "fontSizes"
+          },
+          "md": {
+            "$value": "1.875rem",
+            "$type": "fontSizes"
+          },
+          "lg": {
+            "$value": "2.0625rem",
+            "$type": "fontSizes"
+          },
+          "xl": {
+            "$value": "2.25rem",
+            "$type": "fontSizes"
+          }
+        },
+        "subtitle": {
+          "sm": {
+            "$value": "1.5rem",
+            "$type": "fontSizes"
+          },
+          "md": {
+            "$value": "1.6875rem",
+            "$type": "fontSizes"
+          },
+          "lg": {
+            "$value": "1.875rem",
+            "$type": "fontSizes"
+          },
+          "xl": {
+            "$value": "2.0625rem",
+            "$type": "fontSizes"
+          }
+        },
+        "callout": {
+          "sm": {
+            "$value": "0.875rem",
+            "$type": "fontSizes"
+          },
+          "md": {
+            "$value": "1rem",
+            "$type": "fontSizes"
+          },
+          "lg": {
+            "$value": "1.125rem",
+            "$type": "fontSizes"
+          },
+          "xl": {
+            "$value": "1.25rem",
+            "$type": "fontSizes"
+          }
+        },
+        "body": {
+          "sm": {
+            "$value": "1rem",
+            "$type": "fontSizes"
+          },
+          "md": {
+            "$value": "1.09375rem",
+            "$type": "fontSizes"
+          }
+        }
+      }
+    },
+    "letterSpacing": {
+      "surface": {
+        "body": {
+          "sm": {
+            "$value": "0.088px",
+            "$type": "letterSpacing"
+          },
+          "md": {
+            "$value": "0.088px",
+            "$type": "letterSpacing"
+          }
+        }
+      }
+    },
+    "color": {
+      "surface": {
+        "bg": {
+          "high": {
+            "$value": "oklch(0.1721 0.0486 133.08)",
+            "$type": "color"
+          }
+        },
+        "fg": {
+          "default": {
+            "$value": "oklch(0.9049 0.2431 132.41)",
+            "$type": "color"
+          }
+        }
+      },
+      "component": {
+        "primary": {
+          "border": {
+            "subtle": {
+              "default": {
+                "$value": "oklch(1 0 0 / 8%)",
+                "$type": "color"
+              }
+            }
+          }
+        }
+      }
+    },
+    "fontWeight": {
+      "surface": {
+        "display": {
+          "$value": "700",
+          "$type": "fontWeight"
+        }
+      }
+    }
+  }
+}
