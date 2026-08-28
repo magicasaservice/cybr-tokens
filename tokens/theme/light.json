@@ -640,13 +640,13 @@
             "muted": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.neutral.translucent.6}"
+                "$value": "{config.color.palette.neutral.translucent.8}"
               }
             },
             "subtle": {
               "default": {
                 "$type": "color",
-                "$value": "{config.color.palette.neutral.translucent.4}"
+                "$value": "{config.color.palette.neutral.translucent.6}"
               }
             },
             "onSolid": {
