@@ -44,15 +44,15 @@
             "$type": "fontSizes"
           },
           "md": {
-            "$value": "2.75rem",
+            "$value": "4rem",
             "$type": "fontSizes"
           },
           "lg": {
-            "$value": "3.25rem",
+            "$value": "4.75rem",
             "$type": "fontSizes"
           },
           "xl": {
-            "$value": "3.75rem",
+            "$value": "5.625rem",
             "$type": "fontSizes"
           }
         },
