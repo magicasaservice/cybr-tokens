@@ -618,6 +618,12 @@
             }
           },
           "border": {
+            "solid": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.lime.solid.7}"
+              }
+            },
             "subtle": {
               "default": {
                 "$type": "color",

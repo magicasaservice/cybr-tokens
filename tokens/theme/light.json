@@ -714,6 +714,14 @@
               }
             }
           },
+          "border": {
+            "solid": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.lime.solid.8}"
+              }
+            }
+          },
           "fg": {
             "solid": {
               "default": {
