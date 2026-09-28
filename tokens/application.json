@@ -314,6 +314,32 @@
               "$value": "oklch(1 0 0 / 4%)"
             }
           }
+        },
+        "eta": {
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "oklch(0 0 0 / 24%)"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "oklch(0 0 0 / 32%)"
+            },
+            "active": {
+              "$type": "color",
+              "$value": "oklch(0 0 0 / 40%)"
+            }
+          },
+          "fg": {
+            "default": {
+              "$value": "oklch(0.96 0 0)",
+              "$type": "color"
+            },
+            "muted": {
+              "$value": "oklch(0.96 0 0)",
+              "$type": "color"
+            }
+          }
         }
       },
       "component": {
@@ -2249,6 +2275,12 @@
                 "$type": "dimension"
               }
             }
+          }
+        },
+        "eta": {
+          "blur": {
+            "$value": "24px",
+            "$type": "dimension"
           }
         }
       },
