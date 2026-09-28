@@ -458,6 +458,32 @@
               ]
             }
           }
+        },
+        "eta": {
+          "bg": {
+            "default": {
+              "$type": "color",
+              "$value": "oklch(1 0 0 / 40%)"
+            },
+            "hover": {
+              "$type": "color",
+              "$value": "oklch(1 0 0 / 48%)"
+            },
+            "active": {
+              "$type": "color",
+              "$value": "oklch(1 0 0 / 56%)"
+            }
+          },
+          "fg": {
+            "default": {
+              "$value": "oklch(0.11 0 0)",
+              "$type": "color"
+            },
+            "muted": {
+              "$value": "oklch(0.11 0 0)",
+              "$type": "color"
+            }
+          }
         }
       },
       "component": {
