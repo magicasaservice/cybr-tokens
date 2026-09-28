@@ -319,15 +319,15 @@
           "bg": {
             "default": {
               "$type": "color",
-              "$value": "oklch(0 0 0 / 24%)"
+              "$value": "oklch(0.31 0 0 / 49%)"
             },
             "hover": {
               "$type": "color",
-              "$value": "oklch(0 0 0 / 32%)"
+              "$value": "oklch(0.31 0 0 / 57%)"
             },
             "active": {
               "$type": "color",
-              "$value": "oklch(0 0 0 / 40%)"
+              "$value": "oklch(0.31 0 0 / 65%)"
             }
           },
           "fg": {
