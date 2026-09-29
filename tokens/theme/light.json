@@ -161,51 +161,51 @@
         "yellow": {
           "translucent": {
             "1": {
-              "$value": "oklch(0.64 0.167 57 / 0.12)",
+              "$value": "oklch(0.86 0.17 88 / 0.12)",
               "$type": "color"
             },
             "2": {
-              "$value": "oklch(0.64 0.167 57 / 0.18)",
+              "$value": "oklch(0.86 0.17 88 / 0.18)",
               "$type": "color"
             },
             "3": {
-              "$value": "oklch(0.64 0.167 57 / 0.24)",
+              "$value": "oklch(0.86 0.17 88 / 0.24)",
               "$type": "color"
             },
             "4": {
-              "$value": "oklch(0.64 0.167 57 / 0.30)",
+              "$value": "oklch(0.86 0.17 88 / 0.30)",
               "$type": "color"
             },
             "5": {
-              "$value": "oklch(0.64 0.167 57 / 0.36)",
+              "$value": "oklch(0.86 0.17 88 / 0.36)",
               "$type": "color"
             },
             "6": {
-              "$value": "oklch(0.64 0.167 57 / 0.42)",
+              "$value": "oklch(0.86 0.17 88 / 0.42)",
               "$type": "color"
             },
             "7": {
-              "$value": "oklch(0.64 0.167 57 / 0.48)",
+              "$value": "oklch(0.86 0.17 88 / 0.48)",
               "$type": "color"
             },
             "8": {
-              "$value": "oklch(0.64 0.167 57 / 0.54)",
+              "$value": "oklch(0.86 0.17 88 / 0.54)",
               "$type": "color"
             },
             "9": {
-              "$value": "oklch(0.64 0.167 57 / 0.60)",
+              "$value": "oklch(0.86 0.17 88 / 0.60)",
               "$type": "color"
             },
             "10": {
-              "$value": "oklch(0.64 0.167 57 / 0.66)",
+              "$value": "oklch(0.86 0.17 88 / 0.66)",
               "$type": "color"
             },
             "11": {
-              "$value": "oklch(0.64 0.167 57 / 0.72)",
+              "$value": "oklch(0.86 0.17 88 / 0.72)",
               "$type": "color"
             },
             "12": {
-              "$value": "oklch(0.64 0.167 57 / 0.78)",
+              "$value": "oklch(0.86 0.17 88 / 0.78)",
               "$type": "color"
             }
           }
@@ -949,6 +949,20 @@
         },
         "warning": {
           "bg": {
+            "solid": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.yellow.solid.8}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.yellow.solid.9}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.yellow.solid.10}"
+              }
+            },
             "subtle": {
               "default": {
                 "$type": "color",

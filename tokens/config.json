@@ -915,113 +915,113 @@
         "yellow": {
           "solid": {
             "1": {
-              "$value": "oklch(0.97 0.022 57.0)",
+              "$value": "oklch(0.98 0.03 98.0)",
               "$type": "color"
             },
             "2": {
-              "$value": "oklch(0.95 0.038 57.0)",
+              "$value": "oklch(0.96 0.05 96.0)",
               "$type": "color"
             },
             "3": {
-              "$value": "oklch(0.93 0.053 57.0)",
+              "$value": "oklch(0.94 0.075 94.0)",
               "$type": "color"
             },
             "4": {
-              "$value": "oklch(0.91 0.07 57.0)",
+              "$value": "oklch(0.92 0.1 92.0)",
               "$type": "color"
             },
             "5": {
-              "$value": "oklch(0.88 0.095 57.0)",
+              "$value": "oklch(0.9 0.13 90.0)",
               "$type": "color"
             },
             "6": {
-              "$value": "oklch(0.83 0.14 57.0)",
+              "$value": "oklch(0.87 0.16 87.0)",
               "$type": "color"
             },
             "7": {
-              "$value": "oklch(0.76 0.206 57.0)",
+              "$value": "oklch(0.83 0.18 82.0)",
               "$type": "color"
             },
             "8": {
-              "$value": "oklch(0.7 0.189 57.0)",
+              "$value": "oklch(0.78 0.175 76.0)",
               "$type": "color"
             },
             "9": {
-              "$value": "oklch(0.64 0.173 57.0)",
+              "$value": "oklch(0.73 0.17 72.0)",
               "$type": "color"
             },
             "10": {
-              "$value": "oklch(0.56 0.152 57.0)",
+              "$value": "oklch(0.56 0.135 68.0)",
               "$type": "color"
             },
             "11": {
-              "$value": "oklch(0.52 0.141 57.0)",
+              "$value": "oklch(0.52 0.125 65.0)",
               "$type": "color"
             },
             "12": {
-              "$value": "oklch(0.48 0.13 57.0)",
+              "$value": "oklch(0.48 0.115 62.0)",
               "$type": "color"
             },
             "13": {
-              "$value": "oklch(0.28 0.076 57.0)",
+              "$value": "oklch(0.29 0.07 60.0)",
               "$type": "color"
             },
             "14": {
-              "$value": "oklch(0.24 0.066 57.0)",
+              "$value": "oklch(0.25 0.06 59.0)",
               "$type": "color"
             },
             "15": {
-              "$value": "oklch(0.2 0.055 57.0)",
+              "$value": "oklch(0.21 0.05 58.0)",
               "$type": "color"
             }
           },
           "translucent": {
             "1": {
-              "$value": "oklch(0.76 0.167 57 / 0.12)",
+              "$value": "oklch(0.83 0.15 82 / 0.12)",
               "$type": "color"
             },
             "2": {
-              "$value": "oklch(0.76 0.167 57 / 0.18)",
+              "$value": "oklch(0.83 0.15 82 / 0.18)",
               "$type": "color"
             },
             "3": {
-              "$value": "oklch(0.76 0.167 57 / 0.24)",
+              "$value": "oklch(0.83 0.15 82 / 0.24)",
               "$type": "color"
             },
             "4": {
-              "$value": "oklch(0.76 0.167 57 / 0.30)",
+              "$value": "oklch(0.83 0.15 82 / 0.30)",
               "$type": "color"
             },
             "5": {
-              "$value": "oklch(0.76 0.167 57 / 0.36)",
+              "$value": "oklch(0.83 0.15 82 / 0.36)",
               "$type": "color"
             },
             "6": {
-              "$value": "oklch(0.76 0.167 57 / 0.42)",
+              "$value": "oklch(0.83 0.15 82 / 0.42)",
               "$type": "color"
             },
             "7": {
-              "$value": "oklch(0.76 0.167 57 / 0.48)",
+              "$value": "oklch(0.83 0.15 82 / 0.48)",
               "$type": "color"
             },
             "8": {
-              "$value": "oklch(0.76 0.167 57 / 0.54)",
+              "$value": "oklch(0.83 0.15 82 / 0.54)",
               "$type": "color"
             },
             "9": {
-              "$value": "oklch(0.76 0.167 57 / 0.60)",
+              "$value": "oklch(0.83 0.15 82 / 0.60)",
               "$type": "color"
             },
             "10": {
-              "$value": "oklch(0.76 0.167 57 / 0.66)",
+              "$value": "oklch(0.83 0.15 82 / 0.66)",
               "$type": "color"
             },
             "11": {
-              "$value": "oklch(0.76 0.167 57 / 0.72)",
+              "$value": "oklch(0.83 0.15 82 / 0.72)",
               "$type": "color"
             },
             "12": {
-              "$value": "oklch(0.76 0.167 57 / 0.78)",
+              "$value": "oklch(0.83 0.15 82 / 0.78)",
               "$type": "color"
             }
           }
