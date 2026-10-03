@@ -58,7 +58,7 @@
             "$type": "letterSpacing"
           },
           "md": {
-            "$value": "0.088px;",
+            "$value": "0.088px",
             "$type": "letterSpacing"
           }
         }
