@@ -718,6 +718,132 @@
             }
           }
         },
+        "highlight": {
+          "bg": {
+            "solid": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.pink.solid.7}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.pink.solid.8}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.pink.solid.9}"
+              }
+            },
+            "subtle": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.pink.translucent.1}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.pink.translucent.2}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.pink.translucent.3}"
+              }
+            },
+            "muted": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.pink.translucent.3}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.pink.translucent.4}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.pink.translucent.5}"
+              }
+            },
+            "light": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.white.solid}"
+              }
+            }
+          },
+          "border": {
+            "solid": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.pink.solid.7}"
+              }
+            },
+            "subtle": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.pink.translucent.4}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.pink.translucent.5}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.pink.translucent.6}"
+              }
+            }
+          },
+          "fg": {
+            "solid": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.pink.solid.7}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.pink.solid.8}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.pink.solid.9}"
+              }
+            },
+            "muted": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.pink.translucent.8}"
+              }
+            },
+            "subtle": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.pink.translucent.6}"
+              }
+            },
+            "onSolid": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.black.solid}"
+              }
+            },
+            "onSubtle": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.pink.solid.1}"
+              }
+            },
+            "onMuted": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.pink.solid.1}"
+              }
+            },
+            "onLight": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.pink.translucent.6}"
+              }
+            }
+          }
+        },
         "danger": {
           "bg": {
             "solid": {

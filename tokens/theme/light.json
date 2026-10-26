@@ -789,6 +789,78 @@
             }
           }
         },
+        "highlight": {
+          "bg": {
+            "subtle": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.pink.translucent.2}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.pink.translucent.3}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.pink.translucent.4}"
+              }
+            },
+            "muted": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.pink.translucent.3}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.pink.translucent.4}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.pink.translucent.5}"
+              }
+            }
+          },
+          "fg": {
+            "solid": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.pink.solid.10}"
+              },
+              "hover": {
+                "$type": "color",
+                "$value": "{config.color.palette.pink.solid.11}"
+              },
+              "active": {
+                "$type": "color",
+                "$value": "{config.color.palette.pink.solid.12}"
+              }
+            },
+            "muted": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.pink.translucent.12}"
+              }
+            },
+            "subtle": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.pink.translucent.6}"
+              }
+            },
+            "onSubtle": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.pink.solid.15}"
+              }
+            },
+            "onMuted": {
+              "default": {
+                "$type": "color",
+                "$value": "{config.color.palette.pink.solid.15}"
+              }
+            }
+          }
+        },
         "danger": {
           "bg": {
             "subtle": {
